@@ -17,23 +17,23 @@ export function HomeView({ animeByDay, animeList }: Props) {
 
   return (
     <div>
-      <div className="mb-6 flex items-center gap-2">
+      <div className="mb-5 flex gap-0 border-b border-border">
         <button
           onClick={() => setTab("latest")}
-          className={`rounded-full px-5 py-2 text-sm font-bold transition-all ${
+          className={`px-4 py-2.5 text-sm font-bold transition-colors ${
             tab === "latest"
-              ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-md shadow-purple-300/40"
-              : "bg-white text-text-secondary border border-border hover:border-pink-300 hover:text-pink-500"
+              ? "border-b-2 border-accent text-accent"
+              : "text-text-muted hover:text-text-secondary"
           }`}
         >
           最新エピソード
         </button>
         <button
           onClick={() => setTab("schedule")}
-          className={`rounded-full px-5 py-2 text-sm font-bold transition-all ${
+          className={`px-4 py-2.5 text-sm font-bold transition-colors ${
             tab === "schedule"
-              ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-md shadow-purple-300/40"
-              : "bg-white text-text-secondary border border-border hover:border-pink-300 hover:text-pink-500"
+              ? "border-b-2 border-accent text-accent"
+              : "text-text-muted hover:text-text-secondary"
           }`}
         >
           週間スケジュール

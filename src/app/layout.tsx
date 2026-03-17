@@ -26,19 +26,19 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-text-primary`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg-primary text-text-primary`}
       >
-        <header className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 shadow-lg">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-            <a href="/" className="flex items-center gap-2 text-xl font-extrabold tracking-tight text-white drop-shadow-md">
-              アニメスケジュール JP
+        <header className="border-b border-border bg-bg-secondary">
+          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+            <a href="/" className="text-lg font-bold tracking-tight text-text-primary">
+              アニメスケジュール<span className="text-accent">.</span>jp
             </a>
-            <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-bold text-white backdrop-blur-sm">
+            <span className="rounded bg-bg-card px-2 py-1 text-xs text-text-muted">
               2026年冬
             </span>
           </div>
         </header>
-        <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
+        <main className="mx-auto max-w-6xl px-4 py-6">{children}</main>
       </body>
     </html>
   );

@@ -16,65 +16,53 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
   if (episodes.length === 0) return null;
 
   return (
-    <div>
-      <h2 className="mb-4 text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
-        最新エピソード
-      </h2>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-        {episodes.map((ep) => (
-          <Link
-            key={`${ep.anime.slug}-${ep.episode}`}
-            href={`/anime/${ep.anime.slug}`}
-            className="group relative overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-xl hover:shadow-pink-200/40 hover:-translate-y-1"
-          >
-            {ep.anime.image ? (
-              <img
-                src={ep.anime.image}
-                alt={ep.anime.title}
-                className="aspect-[3/4] w-full object-cover transition-transform group-hover:scale-105"
-              />
-            ) : (
-              <div className="flex aspect-[3/4] w-full items-center justify-center bg-purple-50 text-xs text-text-muted">
-                画像なし
-              </div>
-            )}
-
-            <div className="absolute inset-0 bg-gradient-to-t from-purple-950/90 via-purple-900/20 to-transparent" />
-
-            {/* Platform badge - top right */}
-            <div className="absolute top-2 right-2 flex gap-1">
-              {ep.anime.platforms.map((pid) => {
-                const p = platforms[pid];
-                return (
-                  <span
-                    key={pid}
-                    className="rounded-full px-2 py-0.5 text-[10px] font-bold shadow-sm"
-                    style={{
-                      backgroundColor: p.color,
-                      color: "#fff",
-                    }}
-                  >
-                    {p.name}
-                  </span>
-                );
-              })}
+    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      {episodes.map((ep) => (
+        <Link
+          key={`${ep.anime.slug}-${ep.episode}`}
+          href={`/anime/${ep.anime.slug}`}
+          className="group relative overflow-hidden rounded bg-bg-card transition-all hover:shadow-lg hover:shadow-accent-glow"
+        >
+          {ep.anime.image ? (
+            <img
+              src={ep.anime.image}
+              alt={ep.anime.title}
+              className="aspect-[3/4] w-full object-cover"
+            />
+          ) : (
+            <div className="flex aspect-[3/4] w-full items-center justify-center bg-bg-secondary text-xs text-text-muted">
+              画像なし
             </div>
+          )}
 
-            {/* Title + episode + time - bottom */}
-            <div className="absolute bottom-0 left-0 right-0 p-3">
-              <span className="mb-1.5 inline-block rounded-full bg-gradient-to-r from-pink-500 to-purple-500 px-2.5 py-0.5 text-xs font-bold text-white shadow-sm">
-                第{ep.episode}話
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90" />
+
+          {/* Platform - top right */}
+          <div className="absolute top-1.5 right-1.5">
+            {ep.anime.platforms.slice(0, 1).map((pid) => (
+              <span
+                key={pid}
+                className="rounded-sm bg-black/60 px-1.5 py-0.5 text-[10px] font-bold text-white"
+              >
+                {platforms[pid].name}
               </span>
-              <h3 className="line-clamp-2 text-sm font-bold leading-snug text-white drop-shadow-lg">
-                {ep.anime.title}
-              </h3>
-              <p className="mt-1 text-xs text-pink-200">
-                {formatRelativeTime(ep.airedAt)}
-              </p>
-            </div>
-          </Link>
-        ))}
-      </div>
+            ))}
+          </div>
+
+          {/* Bottom info */}
+          <div className="absolute bottom-0 left-0 right-0 p-2">
+            <span className="mb-1 inline-block rounded-sm bg-accent px-1.5 py-0.5 text-[10px] font-bold text-white">
+              第{ep.episode}話
+            </span>
+            <h3 className="line-clamp-2 text-xs font-bold leading-tight text-white">
+              {ep.anime.title}
+            </h3>
+            <p className="mt-0.5 text-[10px] text-text-secondary">
+              {formatRelativeTime(ep.airedAt)}
+            </p>
+          </div>
+        </Link>
+      ))}
     </div>
   );
 }

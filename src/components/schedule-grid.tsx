@@ -49,13 +49,13 @@ export function ScheduleGrid({ animeByDay }: Props) {
 
   return (
     <div>
-      <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center">
         <input
           type="text"
           placeholder="アニメを検索..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="rounded-full border border-purple-200 bg-white px-4 py-2 text-sm text-text-primary placeholder-text-muted shadow-sm outline-none focus:border-pink-400 focus:ring-2 focus:ring-pink-200"
+          className="rounded bg-bg-card px-3 py-2 text-sm text-text-primary placeholder-text-muted outline-none border border-border focus:border-accent"
         />
 
         <select
@@ -63,7 +63,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           onChange={(e) =>
             setSelectedPlatform(e.target.value as PlatformId | "all")
           }
-          className="rounded-full border border-purple-200 bg-white px-4 py-2 text-sm text-text-primary shadow-sm outline-none focus:border-pink-400"
+          className="rounded bg-bg-card px-3 py-2 text-sm text-text-primary outline-none border border-border focus:border-accent"
         >
           <option value="all">全プラットフォーム</option>
           {allPlatformIds.map((pid) => (
@@ -73,13 +73,13 @@ export function ScheduleGrid({ animeByDay }: Props) {
           ))}
         </select>
 
-        <div className="flex gap-1">
+        <div className="flex gap-0.5">
           <button
             onClick={() => setSelectedDay("all")}
-            className={`rounded-full px-3 py-1.5 text-xs font-bold transition-all ${
+            className={`rounded-sm px-2.5 py-1.5 text-xs font-bold transition-colors ${
               selectedDay === "all"
-                ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-sm"
-                : "bg-white text-text-secondary border border-purple-200 hover:border-pink-300"
+                ? "bg-accent text-white"
+                : "bg-bg-card text-text-muted hover:text-text-primary"
             }`}
           >
             全部
@@ -88,10 +88,10 @@ export function ScheduleGrid({ animeByDay }: Props) {
             <button
               key={day}
               onClick={() => setSelectedDay(day)}
-              className={`rounded-full px-3 py-1.5 text-xs font-bold transition-all ${
+              className={`rounded-sm px-2.5 py-1.5 text-xs font-bold transition-colors ${
                 selectedDay === day
-                  ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-sm"
-                  : "bg-white text-text-secondary border border-purple-200 hover:border-pink-300"
+                  ? "bg-accent text-white"
+                  : "bg-bg-card text-text-muted hover:text-text-primary"
               }`}
             >
               {day}
@@ -100,22 +100,22 @@ export function ScheduleGrid({ animeByDay }: Props) {
         </div>
       </div>
 
-      <div className="space-y-8">
+      <div className="space-y-6">
         {daysToShow.map((day) => {
           const filtered = filterAnime(animeByDay[day]);
           if (filtered.length === 0) return null;
 
           return (
             <section key={day}>
-              <h2 className="mb-3 flex items-center gap-2 text-lg font-extrabold">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-pink-500 to-purple-500 text-sm text-white shadow-sm">
+              <h2 className="mb-2 flex items-center gap-2 text-sm font-bold">
+                <span className="bg-accent text-white px-2 py-0.5 rounded-sm text-xs">
                   {day}
                 </span>
-                <span className="text-text-secondary text-sm font-normal">
+                <span className="text-text-muted text-xs font-normal">
                   {DAY_LABELS[day]}
                 </span>
               </h2>
-              <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
                 {filtered.map((anime) => (
                   <AnimeCard key={anime.slug} anime={anime} />
                 ))}

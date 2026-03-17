@@ -4,25 +4,16 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  --color-bg-primary: #faf5ff;
-  --color-bg-secondary: #f0e6ff;
-  --color-bg-card: #ffffff;
-  --color-bg-card-hover: #fdf2ff;
-  --color-border: #e8d5f5;
-  --color-border-hover: #c084fc;
-  --color-text-primary: #2d1b4e;
-  --color-text-secondary: #6b5088;
-  --color-text-muted: #9b8ab4;
-  --color-accent: #a855f7;
-  --color-accent-hover: #9333ea;
-  --color-pink: #ec4899;
-  --color-cyan: #22d3ee;
-  --color-gradient-start: #a855f7;
-  --color-gradient-mid: #ec4899;
-  --color-gradient-end: #f97316;
-}
-
-body {
-  background: linear-gradient(180deg, #faf5ff 0%, #fce7f3 50%, #f0e6ff 100%);
-  background-attachment: fixed;
+  --color-bg-primary: #0f1318;
+  --color-bg-secondary: #1a1f27;
+  --color-bg-card: #222830;
+  --color-bg-card-hover: #2a3040;
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-border-hover: rgba(180, 22, 65, 0.4);
+  --color-text-primary: #e8e8e8;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+  --color-accent: #e8436a;
+  --color-accent-hover: #ff5580;
+  --color-accent-glow: rgba(232, 67, 106, 0.15);
 }
