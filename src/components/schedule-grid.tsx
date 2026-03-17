@@ -52,7 +52,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
       <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center">
         <input
           type="text"
-          placeholder="Search anime..."
+          placeholder="アニメを検索..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-primary placeholder-text-muted outline-none focus:border-accent"
@@ -65,7 +65,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           }
           className="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-primary outline-none focus:border-accent"
         >
-          <option value="all">All platforms</option>
+          <option value="all">全プラットフォーム</option>
           {allPlatformIds.map((pid) => (
             <option key={pid} value={pid}>
               {platforms[pid].name}
@@ -82,7 +82,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
                 : "bg-bg-card text-text-secondary hover:text-text-primary"
             }`}
           >
-            All
+            全部
           </button>
           {DAYS.map((day) => (
             <button

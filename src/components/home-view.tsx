@@ -26,7 +26,7 @@ export function HomeView({ animeByDay, animeList }: Props) {
               : "text-text-secondary hover:text-text-primary hover:bg-bg-card"
           }`}
         >
-          Latest Episodes
+          最新エピソード
         </button>
         <button
           onClick={() => setTab("schedule")}
@@ -36,7 +36,7 @@ export function HomeView({ animeByDay, animeList }: Props) {
               : "text-text-secondary hover:text-text-primary hover:bg-bg-card"
           }`}
         >
-          Weekly Schedule
+          週間スケジュール
         </button>
       </div>
 

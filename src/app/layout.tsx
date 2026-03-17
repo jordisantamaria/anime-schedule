@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anime Schedule JP - Streaming Schedule for Japan",
+  title: "アニメスケジュール JP - 配信スケジュール",
   description:
-    "Weekly anime streaming schedule for Japanese platforms. Find when and where to watch anime on DMM TV, Netflix, ABEMA, and more.",
+    "日本の配信プラットフォームのアニメ週間スケジュール。DMM TV、Netflix、ABEMAなどの配信時間を確認できます。",
 };
 
 export default function RootLayout({
@@ -24,14 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg-primary text-text-primary`}
       >
         <header className="border-b border-border bg-bg-secondary">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
             <a href="/" className="flex items-center gap-2 text-lg font-bold tracking-tight">
-              Anime Schedule <span className="text-accent">JP</span>
+              アニメスケジュール <span className="text-accent">JP</span>
             </a>
             <span className="rounded-md bg-bg-card px-2.5 py-1 text-xs font-medium text-text-secondary">
               Winter 2026

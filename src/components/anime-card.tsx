@@ -29,7 +29,7 @@ export function AnimeCard({ anime }: { anime: AnimeEntry }) {
         )}
         <div className="mt-1 flex items-center gap-2">
           <span className="text-xs font-mono text-text-secondary">
-            {anime.time ?? "TBD"}
+            {anime.time ?? "未定"}
           </span>
           <div className="flex gap-1">
             {anime.platforms.map((pid) => {
@@ -47,7 +47,7 @@ export function AnimeCard({ anime }: { anime: AnimeEntry }) {
           </div>
           {anime.type === "レンタル" && (
             <span className="rounded bg-yellow-900/30 px-1.5 py-0.5 text-[10px] text-yellow-400">
-              Rental
+              レンタル
             </span>
           )}
         </div>

@@ -17,7 +17,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
 
   return (
     <div>
-      <h2 className="mb-4 text-xl font-bold">Latest Episodes</h2>
+      <h2 className="mb-4 text-xl font-bold">最新エピソード</h2>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {episodes.map((ep) => (
           <Link
@@ -83,7 +83,7 @@ function formatRelativeTime(date: Date): string {
   const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
   const diffDays = Math.floor(diffHours / 24);
 
-  if (diffDays > 0) return `${diffDays}d ago`;
-  if (diffHours > 0) return `${diffHours}h ago`;
-  return "Just aired";
+  if (diffDays > 0) return `${diffDays}日前`;
+  if (diffHours > 0) return `${diffHours}時間前`;
+  return "配信中";
 }

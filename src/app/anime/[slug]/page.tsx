@@ -23,7 +23,7 @@ export default async function AnimeDetail({
         href="/"
         className="mb-6 inline-flex items-center gap-1 text-sm text-text-secondary hover:text-text-primary"
       >
-        &larr; Back to schedule
+        &larr; スケジュールに戻る
       </Link>
 
       <div className="flex flex-col gap-6 sm:flex-row">
@@ -35,7 +35,7 @@ export default async function AnimeDetail({
           />
         ) : (
           <div className="flex h-64 w-44 items-center justify-center rounded-lg bg-bg-card text-text-muted">
-            No image
+            画像なし
           </div>
         )}
 
@@ -50,32 +50,32 @@ export default async function AnimeDetail({
 
           <div className="mt-4 flex flex-wrap gap-4 text-sm">
             <div>
-              <span className="text-text-muted">Day</span>
+              <span className="text-text-muted">曜日</span>
               <p className="font-medium">
                 {anime.day} ({DAY_LABELS[anime.day]})
               </p>
             </div>
             <div>
-              <span className="text-text-muted">Time (JST)</span>
-              <p className="font-medium font-mono">{anime.time ?? "TBD"}</p>
+              <span className="text-text-muted">配信時間</span>
+              <p className="font-medium font-mono">{anime.time ?? "未定"}</p>
             </div>
             <div>
-              <span className="text-text-muted">Start date</span>
+              <span className="text-text-muted">配信開始</span>
               <p className="font-medium">{anime.startDate}</p>
             </div>
             <div>
-              <span className="text-text-muted">Type</span>
+              <span className="text-text-muted">タイプ</span>
               <p className="font-medium">{anime.type}</p>
             </div>
             {anime.episodes && (
               <div>
-                <span className="text-text-muted">Episodes</span>
+                <span className="text-text-muted">話数</span>
                 <p className="font-medium">{anime.episodes}</p>
               </div>
             )}
             {anime.studio && (
               <div>
-                <span className="text-text-muted">Studio</span>
+                <span className="text-text-muted">制作会社</span>
                 <p className="font-medium">{anime.studio}</p>
               </div>
             )}
@@ -96,7 +96,7 @@ export default async function AnimeDetail({
 
           <div className="mt-6">
             <h2 className="mb-2 text-sm font-medium text-text-muted">
-              Where to watch
+              視聴可能
             </h2>
             <div className="flex flex-wrap gap-2">
               {anime.platforms.map((pid) => {
@@ -124,7 +124,7 @@ export default async function AnimeDetail({
 
       {anime.synopsis && (
         <div className="mt-8 rounded-lg bg-bg-secondary p-4">
-          <h2 className="mb-2 text-sm font-medium text-text-muted">Synopsis</h2>
+          <h2 className="mb-2 text-sm font-medium text-text-muted">あらすじ</h2>
           <p className="text-sm leading-relaxed text-text-secondary">
             {anime.synopsis}
           </p>
