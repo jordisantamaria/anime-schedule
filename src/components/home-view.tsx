@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { AnimeEntry, DayOfWeek } from "@/lib/types";
-import { ScheduleGrid } from "./schedule-grid";
-import { RecentEpisodes } from "./recent-episodes";
+import { ScheduleGrid } from "@/components/schedule-grid";
+import { RecentEpisodes } from "@/components/recent-episodes";
 
 type Tab = "latest" | "schedule";
 
