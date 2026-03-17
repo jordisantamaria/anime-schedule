@@ -30,16 +30,18 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg-primary text-text-primary`}
       >
         <header className="bg-nav text-white">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+          <div className="mx-auto grid max-w-6xl grid-cols-3 items-center px-4 py-3">
             <a href="/" className="text-lg font-bold tracking-tight">
               アニメスケジュール.jp
             </a>
-            <nav className="flex items-center gap-4">
+            <nav className="flex items-center justify-center gap-5">
               <NavLinks />
+            </nav>
+            <div className="flex justify-end">
               <span className="rounded bg-white/20 px-2 py-1 text-xs font-bold">
                 2026年冬
               </span>
-            </nav>
+            </div>
           </div>
         </header>
         <main className="mx-auto max-w-6xl px-4 py-6">{children}</main>
