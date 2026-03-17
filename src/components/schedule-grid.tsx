@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AnimeEntry, DayOfWeek, PlatformId } from "@/lib/types";
 import { DAYS, DAY_LABELS } from "@/lib/data";
 import { platforms } from "@/lib/platforms";
-import { AnimeCard } from "./anime-card";
+import { AnimeCard } from "@/components/anime-card";
 
 type Props = {
   animeByDay: Record<DayOfWeek, AnimeEntry[]>;
@@ -55,7 +55,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           placeholder="Search anime..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder-zinc-500 outline-none focus:border-zinc-500"
+          className="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-primary placeholder-text-muted outline-none focus:border-accent"
         />
 
         <select
@@ -63,7 +63,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           onChange={(e) =>
             setSelectedPlatform(e.target.value as PlatformId | "all")
           }
-          className="rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 outline-none focus:border-zinc-500"
+          className="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-primary outline-none focus:border-accent"
         >
           <option value="all">All platforms</option>
           {allPlatformIds.map((pid) => (
@@ -78,8 +78,8 @@ export function ScheduleGrid({ animeByDay }: Props) {
             onClick={() => setSelectedDay("all")}
             className={`rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors ${
               selectedDay === "all"
-                ? "bg-zinc-100 text-zinc-900"
-                : "bg-zinc-800 text-zinc-400 hover:text-zinc-200"
+                ? "bg-accent text-white"
+                : "bg-bg-card text-text-secondary hover:text-text-primary"
             }`}
           >
             All
@@ -90,8 +90,8 @@ export function ScheduleGrid({ animeByDay }: Props) {
               onClick={() => setSelectedDay(day)}
               className={`rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors ${
                 selectedDay === day
-                  ? "bg-zinc-100 text-zinc-900"
-                  : "bg-zinc-800 text-zinc-400 hover:text-zinc-200"
+                  ? "bg-accent text-white"
+                  : "bg-bg-card text-text-secondary hover:text-text-primary"
               }`}
             >
               {day}
@@ -107,11 +107,11 @@ export function ScheduleGrid({ animeByDay }: Props) {
 
           return (
             <section key={day}>
-              <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold text-zinc-100">
-                <span className="flex h-8 w-8 items-center justify-center rounded-md bg-zinc-800 text-sm">
+              <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold text-text-primary">
+                <span className="flex h-8 w-8 items-center justify-center rounded-md bg-accent text-sm text-white">
                   {day}
                 </span>
-                <span className="text-zinc-500 text-sm font-normal">
+                <span className="text-text-muted text-sm font-normal">
                   {DAY_LABELS[day]}
                 </span>
               </h2>

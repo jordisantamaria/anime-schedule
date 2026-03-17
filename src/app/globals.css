@@ -3,4 +3,16 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-bg-primary: #1a1c2e;
+  --color-bg-secondary: #232540;
+  --color-bg-card: #2a2d48;
+  --color-bg-card-hover: #333660;
+  --color-border: #3a3d5c;
+  --color-border-hover: #5558a0;
+  --color-text-primary: #e8e8f0;
+  --color-text-secondary: #9b9cc0;
+  --color-text-muted: #6b6d90;
+  --color-accent: #5865f2;
+  --color-accent-hover: #6b76ff;
 }

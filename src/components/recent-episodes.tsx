@@ -23,7 +23,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
           <Link
             key={`${ep.anime.slug}-${ep.episode}`}
             href={`/anime/${ep.anime.slug}`}
-            className="group relative overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 transition-colors hover:border-zinc-600"
+            className="group relative overflow-hidden rounded-lg border border-border bg-bg-card transition-all hover:border-border-hover hover:shadow-lg hover:shadow-accent/10"
           >
             {ep.anime.image ? (
               <img
@@ -32,12 +32,12 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
                 className="aspect-[3/4] w-full object-cover transition-transform group-hover:scale-105"
               />
             ) : (
-              <div className="flex aspect-[3/4] w-full items-center justify-center bg-zinc-800 text-xs text-zinc-500">
+              <div className="flex aspect-[3/4] w-full items-center justify-center bg-bg-secondary text-xs text-text-muted">
                 No image
               </div>
             )}
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/30 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#1a1c2e]/95 via-[#1a1c2e]/20 to-transparent" />
 
             {/* Platform badge - top right */}
             <div className="absolute top-2 right-2 flex gap-1">
@@ -59,7 +59,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
             </div>
 
             {/* Episode badge - top left */}
-            <span className="absolute top-2 left-2 rounded-md bg-blue-600 px-2 py-0.5 text-xs font-bold backdrop-blur-sm">
+            <span className="absolute top-2 left-2 rounded-md bg-accent px-2 py-0.5 text-xs font-bold text-white backdrop-blur-sm">
               EP {ep.episode}
             </span>
 
@@ -68,7 +68,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
               <h3 className="line-clamp-2 text-sm font-bold leading-snug text-white drop-shadow-lg">
                 {ep.anime.title}
               </h3>
-              <p className="mt-1 text-xs text-zinc-300">
+              <p className="mt-1 text-xs text-text-secondary">
                 {formatRelativeTime(ep.airedAt)}
               </p>
             </div>

@@ -24,16 +24,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-950 text-zinc-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg-primary text-text-primary`}
       >
-        <header className="border-b border-zinc-800">
+        <header className="border-b border-border bg-bg-secondary">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-            <a href="/" className="text-lg font-bold tracking-tight">
-              Anime Schedule <span className="text-zinc-500">JP</span>
+            <a href="/" className="flex items-center gap-2 text-lg font-bold tracking-tight">
+              Anime Schedule <span className="text-accent">JP</span>
             </a>
-            <span className="rounded-md bg-zinc-800 px-2 py-1 text-xs text-zinc-400">
+            <span className="rounded-md bg-bg-card px-2.5 py-1 text-xs font-medium text-text-secondary">
               Winter 2026
             </span>
           </div>
