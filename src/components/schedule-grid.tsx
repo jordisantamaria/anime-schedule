@@ -55,7 +55,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           placeholder="アニメを検索..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-primary placeholder-text-muted outline-none focus:border-accent"
+          className="rounded-full border border-purple-200 bg-white px-4 py-2 text-sm text-text-primary placeholder-text-muted shadow-sm outline-none focus:border-pink-400 focus:ring-2 focus:ring-pink-200"
         />
 
         <select
@@ -63,7 +63,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           onChange={(e) =>
             setSelectedPlatform(e.target.value as PlatformId | "all")
           }
-          className="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-primary outline-none focus:border-accent"
+          className="rounded-full border border-purple-200 bg-white px-4 py-2 text-sm text-text-primary shadow-sm outline-none focus:border-pink-400"
         >
           <option value="all">全プラットフォーム</option>
           {allPlatformIds.map((pid) => (
@@ -76,10 +76,10 @@ export function ScheduleGrid({ animeByDay }: Props) {
         <div className="flex gap-1">
           <button
             onClick={() => setSelectedDay("all")}
-            className={`rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors ${
+            className={`rounded-full px-3 py-1.5 text-xs font-bold transition-all ${
               selectedDay === "all"
-                ? "bg-accent text-white"
-                : "bg-bg-card text-text-secondary hover:text-text-primary"
+                ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-sm"
+                : "bg-white text-text-secondary border border-purple-200 hover:border-pink-300"
             }`}
           >
             全部
@@ -88,10 +88,10 @@ export function ScheduleGrid({ animeByDay }: Props) {
             <button
               key={day}
               onClick={() => setSelectedDay(day)}
-              className={`rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors ${
+              className={`rounded-full px-3 py-1.5 text-xs font-bold transition-all ${
                 selectedDay === day
-                  ? "bg-accent text-white"
-                  : "bg-bg-card text-text-secondary hover:text-text-primary"
+                  ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-sm"
+                  : "bg-white text-text-secondary border border-purple-200 hover:border-pink-300"
               }`}
             >
               {day}
@@ -107,11 +107,11 @@ export function ScheduleGrid({ animeByDay }: Props) {
 
           return (
             <section key={day}>
-              <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold text-text-primary">
-                <span className="flex h-8 w-8 items-center justify-center rounded-md bg-accent text-sm text-white">
+              <h2 className="mb-3 flex items-center gap-2 text-lg font-extrabold">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-pink-500 to-purple-500 text-sm text-white shadow-sm">
                   {day}
                 </span>
-                <span className="text-text-muted text-sm font-normal">
+                <span className="text-text-secondary text-sm font-normal">
                   {DAY_LABELS[day]}
                 </span>
               </h2>
