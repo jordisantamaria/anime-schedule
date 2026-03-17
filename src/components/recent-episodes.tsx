@@ -37,33 +37,38 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
               </div>
             )}
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/30 to-transparent" />
 
-            <div className="absolute bottom-0 left-0 right-0 p-2.5">
-              <span className="mb-1 inline-block rounded bg-blue-600 px-1.5 py-0.5 text-[10px] font-bold">
-                EP {ep.episode}
-              </span>
-              <h3 className="line-clamp-2 text-xs font-medium leading-tight text-white">
+            {/* Platform badge - top right */}
+            <div className="absolute top-2 right-2 flex gap-1">
+              {ep.anime.platforms.map((pid) => {
+                const p = platforms[pid];
+                return (
+                  <span
+                    key={pid}
+                    className="rounded-md px-1.5 py-0.5 text-[10px] font-semibold backdrop-blur-sm"
+                    style={{
+                      backgroundColor: p.color + "cc",
+                      color: "#fff",
+                    }}
+                  >
+                    {p.name}
+                  </span>
+                );
+              })}
+            </div>
+
+            {/* Episode badge - top left */}
+            <span className="absolute top-2 left-2 rounded-md bg-blue-600 px-2 py-0.5 text-xs font-bold backdrop-blur-sm">
+              EP {ep.episode}
+            </span>
+
+            {/* Title + time - bottom */}
+            <div className="absolute bottom-0 left-0 right-0 p-3">
+              <h3 className="line-clamp-2 text-sm font-bold leading-snug text-white drop-shadow-lg">
                 {ep.anime.title}
               </h3>
-              <div className="mt-1 flex items-center gap-1">
-                {ep.anime.platforms.map((pid) => {
-                  const p = platforms[pid];
-                  return (
-                    <span
-                      key={pid}
-                      className="rounded px-1 py-0.5 text-[9px] font-medium"
-                      style={{
-                        backgroundColor: p.color + "33",
-                        color: p.color,
-                      }}
-                    >
-                      {p.name}
-                    </span>
-                  );
-                })}
-              </div>
-              <p className="mt-0.5 text-[10px] text-zinc-400">
+              <p className="mt-1 text-xs text-zinc-300">
                 {formatRelativeTime(ep.airedAt)}
               </p>
             </div>
