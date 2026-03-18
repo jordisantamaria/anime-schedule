@@ -13,7 +13,7 @@ export const platforms: Record<string, Platform> = {
     name: "Netflix",
     color: "#e50914",
     url: "https://www.netflix.com",
-    searchUrl: "https://www.netflix.com/search?q=",
+    searchUrl: "https://www.google.com/search?q=site:netflix.com+",
   },
   abema: {
     id: "abema",
