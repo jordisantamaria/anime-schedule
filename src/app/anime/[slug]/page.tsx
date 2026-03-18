@@ -47,7 +47,12 @@ export default async function AnimeDetail({
             {/* Desktop: poster + PV below */}
             <div className="hidden sm:block shrink-0">
               {anime.image && anime.trailer ? (
-                <TrailerLink trailerId={anime.trailer} title={anime.title} variant="poster" posterSrc={anime.image} />
+                <>
+                  <TrailerLink trailerId={anime.trailer} title={anime.title} variant="poster" posterSrc={anime.image} />
+                  <div className="mt-1.5">
+                    <TrailerLink trailerId={anime.trailer} title={anime.title} variant="link" />
+                  </div>
+                </>
               ) : anime.image ? (
                 <img
                   src={anime.image}

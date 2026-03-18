@@ -50,7 +50,7 @@ export function TrailerLink({ trailerId, title, variant = "link", posterSrc }: T
           onClick={() => setOpen(false)}
         >
           <div
-            className="w-full max-w-3xl mx-4"
+            className="w-full max-w-[80vw] mx-4"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-end mb-2">
