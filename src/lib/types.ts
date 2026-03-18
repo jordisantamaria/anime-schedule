@@ -26,6 +26,7 @@ export type Platform = {
   name: string;
   color: string;
   url: string;
+  searchUrl?: string;
 };
 
 export type Season = "winter" | "spring" | "summer" | "fall";

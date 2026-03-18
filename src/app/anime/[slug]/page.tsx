@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAnimeBySlug, getAnimeData, DAY_LABELS } from "@/lib/data";
-import { platforms } from "@/lib/platforms";
+import { platforms, getPlatformSearchUrl } from "@/lib/platforms";
 
 export function generateStaticParams() {
   return getAnimeData().map((anime) => ({ slug: anime.slug }));
@@ -103,7 +103,7 @@ export default async function AnimeDetail({
                   return (
                     <a
                       key={pid}
-                      href={p.url}
+                      href={getPlatformSearchUrl(pid, anime.title)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 rounded border border-border bg-bg-card px-3 py-1.5 text-sm font-bold transition-colors hover:text-accent hover:border-accent"
@@ -123,8 +123,8 @@ export default async function AnimeDetail({
 
         {anime.synopsis && (
           <div className="mt-5 border-t border-border pt-4">
-            <h2 className="mb-2 text-xs font-bold text-text-muted">あらすじ</h2>
-            <p className="text-sm leading-relaxed text-text-secondary">
+            <h2 className="mb-2 text-xs font-bold text-text-muted">Synopsis</h2>
+            <p className="text-sm leading-relaxed text-text-secondary" lang="en">
               {anime.synopsis}
             </p>
           </div>
