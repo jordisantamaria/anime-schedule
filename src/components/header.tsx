@@ -10,7 +10,7 @@ export function Header() {
     <header className="bg-nav text-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="/" className="flex items-center gap-2 text-lg font-bold tracking-tight">
-          <img src="/logo.png" alt="PaoPaoAnime" className="h-7 w-auto" />
+          <img src="/logo.png" alt="PaoPaoAnime" className="h-5 w-auto" />
           PaoPaoAnime
         </a>
         <div className="hidden sm:flex items-center gap-5">
