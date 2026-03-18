@@ -31,6 +31,16 @@ export default function RootLayout({
       >
         <Header />
         <main className="mx-auto max-w-6xl px-4 py-6">{children}</main>
+        <footer className="border-t border-border mt-12 py-6">
+          <div className="mx-auto max-w-6xl px-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-text-muted">
+            <span>© 2026 PaoPaoAnime</span>
+            <div className="flex gap-4">
+              <a href="/terms" className="hover:text-accent">利用規約</a>
+              <a href="/privacy" className="hover:text-accent">プライバシーポリシー</a>
+              <a href="/about" className="hover:text-accent">PaoPaoAnimeについて</a>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );
