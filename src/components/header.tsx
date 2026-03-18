@@ -11,8 +11,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="/" className="flex items-center gap-1.5 text-lg font-bold tracking-tight shrink-0">
           <img src="/logo.png" alt="PaoPaoAnime" className="h-5 w-auto" />
-          <span className="hidden sm:inline">PaoPaoAnime</span>
-          <span className="sm:hidden text-sm">PaoPao</span>
+          <span className="text-sm sm:text-lg">PaoPaoAnime</span>
         </a>
         <div className="hidden sm:flex items-center gap-5">
           <NavLinks />
