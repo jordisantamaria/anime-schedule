@@ -135,6 +135,21 @@ export default async function AnimeDetail({
             </div>
           </div>
 
+          {anime.trailer && (
+            <div className="mt-5 border-t border-border pt-4">
+              <h2 className="mb-2 text-xs font-bold text-text-muted">PV</h2>
+              <div className="aspect-video w-full overflow-hidden rounded">
+                <iframe
+                  src={`https://www.youtube.com/embed/${anime.trailer}`}
+                  title="PV"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              </div>
+            </div>
+          )}
+
           {anime.synopsis && (
             <div className="mt-5 border-t border-border pt-4">
               <h2 className="mb-2 text-xs font-bold text-text-muted">あらすじ</h2>

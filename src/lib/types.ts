@@ -22,6 +22,7 @@ export type AnimeEntry = {
   banner?: string;
   streams?: { platform: PlatformId; day: DayOfWeek; time: string | null }[];
   season?: string;
+  trailer?: string;
 };
 
 export type Platform = {
