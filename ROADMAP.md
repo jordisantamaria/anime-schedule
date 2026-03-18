@@ -1,9 +1,9 @@
-# Roadmap — アニメスケジュール JP
+# Roadmap — PaoPaoAnime
 
 ## Pre-Launch (必須 para compartir)
 
 ### Branding
-- [ ] Nombre definitivo del producto (animeschedule.jp? anisched? otro?)
+- [x] Nombre definitivo: PaoPaoAnime
 - [ ] Logo (simple, reconocible, estilo anime)
 - [ ] Favicon + OG image para compartir en redes
 - [ ] Dominio custom
@@ -68,6 +68,8 @@
 
 ## v2.1 — Comunidad
 
+- [ ] Discord server (discusión de animes, feature requests, feedback)
+- [ ] Icono Discord en nav (desktop) y footer
 - [ ] Ratings por episodio
 - [ ] Comentarios por anime
 - [ ] Rankings en tiempo real
