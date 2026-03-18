@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { AnimeEntry, DayOfWeek, PlatformId } from "@/lib/types";
 import { DAYS, DAY_LABELS } from "@/lib/data";
 import { platforms } from "@/lib/platforms";
-import { AnimeCard } from "@/components/anime-card";
 
 type Props = {
   animeByDay: Record<DayOfWeek, AnimeEntry[]>;
@@ -100,24 +100,22 @@ export function ScheduleGrid({ animeByDay }: Props) {
         </div>
       </div>
 
-      <div className="space-y-6">
+      <div className="space-y-8">
         {daysToShow.map((day) => {
           const filtered = filterAnime(animeByDay[day]);
           if (filtered.length === 0) return null;
 
           return (
             <section key={day}>
-              <h2 className="mb-2 flex items-center gap-2 text-sm font-bold">
-                <span className="bg-accent text-white px-2 py-0.5 rounded-sm text-xs">
-                  {day}
-                </span>
-                <span className="text-text-muted text-xs font-normal">
+              <h2 className="mb-3 text-base font-bold">
+                {day}曜配信
+                <span className="ml-2 text-xs font-normal text-text-muted">
                   {DAY_LABELS[day]}
                 </span>
               </h2>
-              <div className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {filtered.map((anime) => (
-                  <AnimeCard key={anime.slug} anime={anime} />
+                  <ScheduleCard key={anime.slug} anime={anime} />
                 ))}
               </div>
             </section>
@@ -125,5 +123,40 @@ export function ScheduleGrid({ animeByDay }: Props) {
         })}
       </div>
     </div>
+  );
+}
+
+function ScheduleCard({ anime }: { anime: AnimeEntry }) {
+  const thumbnail = anime.banner || anime.image;
+
+  return (
+    <Link
+      href={`/anime/${anime.slug}`}
+      className="group"
+    >
+      <div className="overflow-hidden rounded border border-border bg-bg-card">
+        {thumbnail ? (
+          <img
+            src={thumbnail}
+            alt={anime.title}
+            className={`w-full object-cover transition-transform group-hover:scale-105 ${
+              anime.banner ? "aspect-video" : "aspect-video object-top"
+            }`}
+          />
+        ) : (
+          <div className="flex aspect-video w-full items-center justify-center bg-bg-card text-xs text-text-muted">
+            画像なし
+          </div>
+        )}
+      </div>
+      <div className="mt-1.5">
+        <p className="text-xs font-bold text-accent">
+          {anime.time ?? "未定"} 予定
+        </p>
+        <h3 className="text-sm font-bold leading-snug text-text-primary group-hover:text-accent line-clamp-2">
+          {anime.title}
+        </h3>
+      </div>
+    </Link>
   );
 }

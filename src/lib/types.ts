@@ -19,6 +19,7 @@ export type AnimeEntry = {
   studio?: string;
   titleEnglish?: string;
   titleRomaji?: string;
+  banner?: string;
 };
 
 export type Platform = {

@@ -16,7 +16,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
   if (episodes.length === 0) return null;
 
   return (
-    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
       {episodes.map((ep) => (
         <Link
           key={`${ep.anime.slug}-${ep.episode}`}
@@ -35,7 +35,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
             </div>
           )}
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
 
           {/* Platform - top right */}
           <div className="absolute top-1.5 right-1.5">
@@ -50,14 +50,14 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
           </div>
 
           {/* Bottom info */}
-          <div className="absolute bottom-0 left-0 right-0 p-2">
-            <span className="mb-1 inline-block rounded-sm bg-accent px-1.5 py-0.5 text-[10px] font-bold text-white">
+          <div className="absolute bottom-0 left-0 right-0 p-2.5">
+            <span className="mb-1.5 inline-block rounded-sm bg-accent px-1.5 py-0.5 text-[10px] font-bold text-white">
               第{ep.episode}話
             </span>
-            <h3 className="line-clamp-2 text-xs font-bold leading-tight text-white">
+            <h3 className="line-clamp-2 text-base font-bold leading-tight text-white drop-shadow-lg">
               {ep.anime.title}
             </h3>
-            <p className="mt-0.5 text-[10px] text-white/70">
+            <p className="mt-1 text-xs text-white/70">
               {formatRelativeTime(ep.airedAt)}
             </p>
           </div>
