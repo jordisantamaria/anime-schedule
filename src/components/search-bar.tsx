@@ -8,7 +8,9 @@ import { AnimeEntry } from "@/lib/types";
 export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
   const ref = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
   const results =
@@ -26,6 +28,10 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
       : [];
 
   useEffect(() => {
+    setActiveIndex(-1);
+  }, [query]);
+
+  useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) {
         setOpen(false);
@@ -37,8 +43,28 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    if (activeIndex >= 0 && results[activeIndex]) {
+      router.push(`/anime/${results[activeIndex].slug}`);
+      setOpen(false);
+      setQuery("");
+      return;
+    }
     if (query.trim()) {
       router.push(`/search?q=${encodeURIComponent(query.trim())}`);
+      setOpen(false);
+    }
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent) {
+    if (!open || results.length === 0) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev < results.length - 1 ? prev + 1 : 0));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev > 0 ? prev - 1 : results.length - 1));
+    } else if (e.key === "Escape") {
       setOpen(false);
     }
   }
@@ -47,6 +73,7 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
     <div ref={ref} className="relative">
       <form onSubmit={handleSubmit} className="relative">
         <input
+          ref={inputRef}
           type="text"
           placeholder="検索..."
           value={query}
@@ -54,7 +81,11 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
             setQuery(e.target.value);
             setOpen(true);
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={(e) => {
+            e.target.select();
+            setOpen(true);
+          }}
+          onKeyDown={handleKeyDown}
           className="w-32 sm:w-44 rounded bg-white/20 pl-3 pr-8 py-1.5 text-xs text-white placeholder-white/60 outline-none focus:bg-white/30 focus:w-48 transition-all"
         />
         <button
@@ -69,7 +100,7 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
 
       {open && results.length > 0 && (
         <div className="absolute top-full right-0 mt-1 w-72 rounded border border-border bg-bg-card shadow-lg z-50">
-          {results.map((a) => (
+          {results.map((a, i) => (
             <Link
               key={a.slug}
               href={`/anime/${a.slug}`}
@@ -77,7 +108,11 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
                 setOpen(false);
                 setQuery("");
               }}
-              className="flex items-center gap-2 px-3 py-2 text-sm hover:bg-bg-card-hover"
+              className={`flex items-center gap-2 px-3 py-2 text-sm ${
+                i === activeIndex
+                  ? "bg-bg-card-hover text-accent"
+                  : "hover:bg-bg-card-hover text-text-primary"
+              }`}
             >
               {a.image && (
                 <img
@@ -86,7 +121,7 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
                   className="h-8 w-6 rounded-sm object-cover"
                 />
               )}
-              <span className="truncate text-text-primary">{a.title}</span>
+              <span className="truncate">{a.title}</span>
             </Link>
           ))}
         </div>
