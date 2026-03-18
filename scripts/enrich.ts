@@ -92,7 +92,27 @@ async function main() {
 
     console.log(`[${i + 1}/${raw.length}] Searching: ${entry.title}`);
 
-    const media = await searchAniList(entry.title);
+    // Try full title first, then simplified (remove parenthetical suffixes, season info)
+    let media = await searchAniList(entry.title);
+
+    if (!media) {
+      const simplified = entry.title
+        .replace(/[（(][^）)]*[）)]/g, "")  // remove （第2期） etc
+        .replace(/第\d+期/, "")
+        .replace(/第\d+クール/, "")
+        .replace(/\d+nd Season/, "")
+        .replace(/Season\s*\d+/, "")
+        .replace(/シーズン\d+/, "")
+        .replace(/\s*～.*～\s*$/, "")       // remove trailing ～subtitle～
+        .replace(/\s*ご褒美Ver\.?/, "")
+        .trim();
+
+      if (simplified !== entry.title && simplified.length > 0) {
+        console.log(`  Retrying with: ${simplified}`);
+        await sleep(1500);
+        media = await searchAniList(simplified);
+      }
+    }
 
     if (media) {
       entry.anilistId = media.id;
