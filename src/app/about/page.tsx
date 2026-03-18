@@ -37,7 +37,7 @@ export default function About() {
 
         <h2 className="text-base font-bold text-text-primary pt-2">お問い合わせ</h2>
         <p>
-          ご意見・ご要望・データの誤りなどがございましたら、<a href="https://github.com/jordisantamaria/anime-schedule/issues" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-hover underline">GitHubのIssue</a>にてご連絡ください。
+          ご意見・ご要望・データの誤りなどがございましたら、<a href="mailto:jordisantamaria1a@gmail.com" className="text-accent hover:text-accent-hover underline">jordisantamaria1a@gmail.com</a>までご連絡ください。
         </p>
       </div>
     </div>
