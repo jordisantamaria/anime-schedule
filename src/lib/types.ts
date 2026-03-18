@@ -1,6 +1,6 @@
 export type DayOfWeek = "月" | "火" | "水" | "木" | "金" | "土" | "日";
 
-export type PlatformId = "dmmtv" | "netflix" | "abema" | "crunchyroll" | "amazon" | "danime" | "disney" | "hulu";
+export type PlatformId = "dmmtv" | "netflix" | "abema" | "crunchyroll" | "amazon" | "danime" | "disney" | "hulu" | "unext";
 
 export type AnimeEntry = {
   title: string;
@@ -20,6 +20,7 @@ export type AnimeEntry = {
   titleEnglish?: string;
   titleRomaji?: string;
   banner?: string;
+  streams?: { platform: PlatformId; day: DayOfWeek; time: string | null }[];
 };
 
 export type Platform = {

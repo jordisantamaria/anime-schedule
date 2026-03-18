@@ -54,7 +54,7 @@ export function RecentEpisodes({ animeList }: { animeList: AnimeEntry[] }) {
             <span className="mb-1.5 inline-block rounded-sm bg-accent px-1 py-px text-xs font-bold text-white">
               第{ep.episode}話
             </span>
-            <h3 className="line-clamp-2 text-base font-bold leading-tight text-white drop-shadow-lg">
+            <h3 className="line-clamp-1 text-base font-bold leading-tight text-white drop-shadow-lg">
               {ep.anime.title}
             </h3>
             <p className="mt-1 text-xs text-white/70">

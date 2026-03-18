@@ -19,7 +19,14 @@
       "Slice of Life"
     ],
     "episodes": 12,
-    "studio": "Imagica Infos"
+    "studio": "Imagica Infos",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": null
+      }
+    ]
   },
   {
     "title": "イチゴ哀歌 ～雑で生イキな妹と割り切れない兄～",
@@ -41,7 +48,14 @@
       "Romance"
     ],
     "episodes": 12,
-    "studio": "Studio Houkiboshi"
+    "studio": "Studio Houkiboshi",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": null
+      }
+    ]
   },
   {
     "title": "有栖川煉ってホントは女なんだよね。",
@@ -63,7 +77,14 @@
       "Hentai"
     ],
     "episodes": 8,
-    "studio": "studio LEO"
+    "studio": "studio LEO",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": null
+      }
+    ]
   },
   {
     "title": "青のミブロ —芹沢暗殺編—（第2期）",
@@ -72,7 +93,8 @@
     "startDate": "2025-12-20",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 189258,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189258-qhtrra5ebBm6.jpg",
@@ -83,7 +105,19 @@
       "Drama"
     ],
     "episodes": null,
-    "studio": "Maho Film"
+    "studio": "Maho Film",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "18:00"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "18:00"
+      }
+    ]
   },
   {
     "title": "シンデレラ・シェフ ～萌妻食神～ シーズン2",
@@ -105,7 +139,14 @@
       "Romance"
     ],
     "studio": "Wawayu Animation",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101973-KUKUPSLYnPPO.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101973-KUKUPSLYnPPO.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "18:00"
+      }
+    ]
   },
   {
     "title": "アンデッドアンラック Winter編",
@@ -129,7 +170,14 @@
     ],
     "episodes": 1,
     "studio": "E&H Production",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/179930-zFY4rcN45RK1.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/179930-zFY4rcN45RK1.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "01:10"
+      }
+    ]
   },
   {
     "title": "多聞くん今どっち!?",
@@ -138,7 +186,8 @@
     "startDate": "2026-01-04",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 178005,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178005-pCEReATswrup.jpg",
@@ -151,7 +200,19 @@
     ],
     "episodes": 13,
     "studio": "J.C.STAFF",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178005-X4Tr7p0sCQbx.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178005-X4Tr7p0sCQbx.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "01:00"
+      },
+      {
+        "platform": "unext",
+        "day": "木",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "花ざかりの君たちへ",
@@ -160,7 +221,8 @@
     "startDate": "2026-01-04",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 177580,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177580-ujQw6Ws3oVCi.jpg",
@@ -174,7 +236,19 @@
       "Slice of Life"
     ],
     "episodes": 12,
-    "studio": "Signal.MD"
+    "studio": "Signal.MD",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "22:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "22:00"
+      }
+    ]
   },
   {
     "title": "勇者パーティを追い出された器用貧乏",
@@ -183,7 +257,8 @@
     "startDate": "2026-01-04",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 187264,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187264-aOUNQvTriPkX.jpg",
@@ -196,7 +271,19 @@
       "Fantasy"
     ],
     "episodes": 12,
-    "studio": "animation studio42"
+    "studio": "animation studio42",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "23:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "23:00"
+      }
+    ]
   },
   {
     "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
@@ -205,7 +292,8 @@
     "startDate": "2026-01-05",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 195322,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195322-hqBf19mBtM5K.jpg",
@@ -220,7 +308,19 @@
     ],
     "episodes": 13,
     "studio": "bones film",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195322-LBvpKyDllb8T.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195322-LBvpKyDllb8T.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "22:30"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "22:30"
+      }
+    ]
   },
   {
     "title": "Fate/strange Fake",
@@ -229,7 +329,8 @@
     "startDate": "2026-01-06",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 166617,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166617-34fpC9y47tTx.png",
@@ -245,7 +346,19 @@
     ],
     "episodes": 13,
     "studio": "A-1 Pictures",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166617-P4w3p0H4lE1O.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166617-P4w3p0H4lE1O.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "12:00"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "00:30"
+      }
+    ]
   },
   {
     "title": "最推しの義兄を愛でるため、長生きします！",
@@ -254,7 +367,8 @@
     "startDate": "2026-01-06",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 199446,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199446-2jYnGrTItjyu.jpg",
@@ -266,7 +380,19 @@
       "Romance"
     ],
     "episodes": null,
-    "studio": "Imageworks Studio"
+    "studio": "Imageworks Studio",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "22:00"
+      },
+      {
+        "platform": "unext",
+        "day": "火",
+        "time": "22:00"
+      }
+    ]
   },
   {
     "title": "魔王の娘は優しすぎる!!",
@@ -275,7 +401,8 @@
     "startDate": "2026-01-06",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 194742,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194742-Cw08T4vIfD3y.jpg",
@@ -289,7 +416,19 @@
     ],
     "episodes": 12,
     "studio": "EMT Squared",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194742-EUZsH4CqYFB5.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194742-EUZsH4CqYFB5.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "22:00"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "22:00"
+      }
+    ]
   },
   {
     "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
@@ -298,7 +437,8 @@
     "startDate": "2026-01-06",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 167152,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx167152-u0cBZkqDowHP.jpg",
@@ -313,7 +453,19 @@
     ],
     "episodes": 12,
     "studio": "Studio KAI",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/167152-6QxZG8Dmf1EL.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/167152-6QxZG8Dmf1EL.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "22:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "22:00"
+      }
+    ]
   },
   {
     "title": "MFゴースト 3rd Season",
@@ -322,7 +474,8 @@
     "startDate": "2026-01-07",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 185753,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185753-fKim5yXjaE9I.png",
@@ -333,7 +486,19 @@
       "Sports"
     ],
     "episodes": null,
-    "studio": "Felix Film"
+    "studio": "Felix Film",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "水",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "アルネの事件簿",
@@ -354,7 +519,14 @@
     ],
     "episodes": 12,
     "studio": "SILVER LINK.",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183984-98y2n8KEQfpZ.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183984-98y2n8KEQfpZ.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "02:00"
+      }
+    ]
   },
   {
     "title": "mofusand animation",
@@ -375,7 +547,14 @@
     ],
     "episodes": null,
     "studio": "Monster's Egg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/204656-ECYkRJKBxTLj.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/204656-ECYkRJKBxTLj.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "08:00"
+      }
+    ]
   },
   {
     "title": "死亡遊戯で飯を食う。",
@@ -384,7 +563,8 @@
     "startDate": "2026-01-07",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 180746,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180746-eqDiHbzoHMFh.jpg",
@@ -399,7 +579,19 @@
     ],
     "episodes": 11,
     "studio": "Studio DEEN",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180746-AyfiOMkuHegF.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180746-AyfiOMkuHegF.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "23:00"
+      },
+      {
+        "platform": "unext",
+        "day": "水",
+        "time": "23:00"
+      }
+    ]
   },
   {
     "title": "綺麗にしてもらえますか。",
@@ -408,7 +600,8 @@
     "startDate": "2026-01-09",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 194028,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194028-ASKnzjS1ily7.jpg",
@@ -422,7 +615,19 @@
     ],
     "episodes": 12,
     "studio": "Okuruto Noboru",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194028-14qoZ1HN4b2j.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194028-14qoZ1HN4b2j.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "透明男と人間女〜そのうち夫婦になるふたり〜",
@@ -431,7 +636,8 @@
     "startDate": "2026-01-09",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 185039,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185039-rVofxrbEyaL9.jpg",
@@ -445,7 +651,19 @@
     ],
     "episodes": 12,
     "studio": "project No.9",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185039-Lh6EIwvvwGaL.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185039-Lh6EIwvvwGaL.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "呪術廻戦 死滅回游 前編 (第3期)",
@@ -454,7 +672,8 @@
     "startDate": "2026-01-09",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 172463,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx172463-LnXqHzt74SJL.jpg",
@@ -468,7 +687,19 @@
     ],
     "episodes": 12,
     "studio": "MAPPA",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/172463-3J2o3qQZadFJ.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/172463-3J2o3qQZadFJ.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "01:30"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "01:30"
+      }
+    ]
   },
   {
     "title": "どうせ、恋してしまうんだ。Season2",
@@ -477,7 +708,8 @@
     "startDate": "2026-01-09",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 189137,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189137-cCXaEiX0bJb4.jpg",
@@ -489,7 +721,19 @@
       "Romance"
     ],
     "episodes": 12,
-    "studio": "TYPHOON GRAPHICS"
+    "studio": "TYPHOON GRAPHICS",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": null
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "02:00"
+      }
+    ]
   },
   {
     "title": "拷問バイトくんの日常",
@@ -498,7 +742,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 197731,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197731-6E0qjPFaNjC6.jpg",
@@ -509,7 +754,19 @@
       "Comedy"
     ],
     "episodes": 12,
-    "studio": "diomedéa"
+    "studio": "diomedéa",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "鎧真伝サムライトルーパー",
@@ -518,7 +775,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 194318,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194318-V3STmm4wutVQ.jpg",
@@ -531,7 +789,19 @@
       "Sci-Fi"
     ],
     "episodes": 12,
-    "studio": "Sunrise"
+    "studio": "Sunrise",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "水",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "幼馴染とはラブコメにならない",
@@ -540,7 +810,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 189565,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189565-OHhadYSsd0Bg.jpg",
@@ -553,7 +824,19 @@
     ],
     "episodes": 12,
     "studio": "Tezuka Productions",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189565-40afF0Vg7Lt8.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189565-40afF0Vg7Lt8.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "00:30"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "00:30"
+      }
+    ]
   },
   {
     "title": "違国日記",
@@ -562,7 +845,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 177385,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177385-TBpvkGdF28R7.png",
@@ -575,7 +859,19 @@
     ],
     "episodes": 13,
     "studio": "Shuka",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177385-lzz3yIhQhQdB.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177385-lzz3yIhQhQdB.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "01:00"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "01:00"
+      }
+    ]
   },
   {
     "title": "カードファイト!! ヴァンガード Divinez 幻真星戦編",
@@ -596,7 +892,14 @@
       "Adventure",
       "Fantasy"
     ],
-    "episodes": null
+    "episodes": null,
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "08:30"
+      }
+    ]
   },
   {
     "title": "ハイスクール！奇面組（2026年）",
@@ -605,7 +908,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 714,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b714-J770J3curufA.jpg",
@@ -618,7 +922,19 @@
     ],
     "episodes": 86,
     "studio": "Studio Comet",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/714-sGTnNvhT8wmf.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/714-sGTnNvhT8wmf.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "12:00"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "12:00"
+      }
+    ]
   },
   {
     "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
@@ -627,7 +943,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 191205,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191205-ALhucRyrwOW1.jpg",
@@ -640,7 +957,19 @@
     ],
     "episodes": 12,
     "studio": "NAZ",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191205-1ZMdtwrP4ClU.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191205-1ZMdtwrP4ClU.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "22:30"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "22:30"
+      }
+    ]
   },
   {
     "title": "TRIGUN STARGAZE",
@@ -649,7 +978,8 @@
     "startDate": "2026-01-10",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 163144,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163144-XdVwFRxPGY6j.jpg",
@@ -664,7 +994,19 @@
     ],
     "episodes": 12,
     "studio": "Orange",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163144-e6vGlARSvwyE.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163144-e6vGlARSvwyE.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "23:30"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "23:30"
+      }
+    ]
   },
   {
     "title": "29歳独身中堅冒険者の日常",
@@ -673,7 +1015,8 @@
     "startDate": "2026-01-11",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 192261,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx192261-oaqwOjlr64ki.jpg",
@@ -687,7 +1030,19 @@
     ],
     "episodes": 12,
     "studio": "HORNETS",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/192261-ccBYYYrlx24B.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/192261-ccBYYYrlx24B.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
@@ -696,7 +1051,8 @@
     "startDate": "2026-01-11",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 185993,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185993-BecPUaWfZJgR.png",
@@ -710,7 +1066,19 @@
     ],
     "episodes": 12,
     "studio": "CompTown",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185993-6H7wGuRpwoSL.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185993-6H7wGuRpwoSL.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
@@ -719,7 +1087,8 @@
     "startDate": "2026-01-11",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 195515,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195515-p1nD71Hmr4ly.jpg",
@@ -734,7 +1103,19 @@
     ],
     "episodes": 13,
     "studio": "Gekkou",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195515-JYI8JvJvDSZp.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195515-JYI8JvJvDSZp.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "23:30"
+      },
+      {
+        "platform": "unext",
+        "day": "火",
+        "time": "23:30"
+      }
+    ]
   },
   {
     "title": "真夜中ハートチューン",
@@ -755,7 +1136,14 @@
       "Romance"
     ],
     "episodes": 12,
-    "studio": "Gekkou"
+    "studio": "Gekkou",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "23:30"
+      }
+    ]
   },
   {
     "title": "闇芝居 十六期",
@@ -776,7 +1164,14 @@
       "Supernatural"
     ],
     "episodes": null,
-    "studio": "ILCA"
+    "studio": "ILCA",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": null
+      }
+    ]
   },
   {
     "title": "アンドロイドは経験人数に入りますか？？",
@@ -800,7 +1195,14 @@
     ],
     "episodes": 8,
     "studio": "Nyan Pollution-ω-",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/192867-r3UitttEQv8C.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/192867-r3UitttEQv8C.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "エリスの聖杯",
@@ -809,7 +1211,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 183270,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183270-CmZikKu34WPd.jpg",
@@ -825,7 +1228,19 @@
     ],
     "episodes": null,
     "studio": "Ashi Productions",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183270-LO0vGZ0mCJgW.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183270-LO0vGZ0mCJgW.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "魔都精兵のスレイブ2",
@@ -834,7 +1249,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 176276,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176276-rtF8mYd2OWw2.png",
@@ -851,7 +1267,19 @@
     ],
     "episodes": 12,
     "studio": "Passione",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176276-ES97CHqKSrLg.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176276-ES97CHqKSrLg.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "00:30"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "00:30"
+      }
+    ]
   },
   {
     "title": "異世界の沙汰は社畜次第",
@@ -860,7 +1288,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 183661,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183661-3muPFi4LtHmK.jpg",
@@ -875,7 +1304,19 @@
     ],
     "episodes": 12,
     "studio": "Studio DEEN",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183661-goNHY3WDK3j3.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183661-goNHY3WDK3j3.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "00:30"
+      },
+      {
+        "platform": "unext",
+        "day": "水",
+        "time": "00:30"
+      }
+    ]
   },
   {
     "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
@@ -884,7 +1325,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 191718,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191718-FeR6bnlkqF0J.png",
@@ -900,7 +1342,19 @@
     ],
     "episodes": 12,
     "studio": "A.C.G.T.",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191718-PjYwTxKsdQva.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191718-PjYwTxKsdQva.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "01:00"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "01:00"
+      }
+    ]
   },
   {
     "title": "北斗の拳 拳王軍ザコたちの挽歌",
@@ -909,7 +1363,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 198720,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198720-khTq51fpDDUZ.jpg",
@@ -920,7 +1375,19 @@
       "Comedy"
     ],
     "episodes": 12,
-    "studio": "Doraku"
+    "studio": "Doraku",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": "20:00"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "20:00"
+      }
+    ]
   },
   {
     "title": "地獄先生ぬ〜べ〜 第2クール（2025）",
@@ -929,7 +1396,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 191967,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191967-fLWqssc0gPI4.jpg",
@@ -943,7 +1411,19 @@
       "Supernatural"
     ],
     "episodes": 13,
-    "studio": "Studio KAI"
+    "studio": "Studio KAI",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "月",
+        "time": null
+      },
+      {
+        "platform": "unext",
+        "day": "木",
+        "time": "00:15"
+      }
+    ]
   },
   {
     "title": "魔都精兵のスレイブ2 ご褒美Ver.",
@@ -969,7 +1449,14 @@
     ],
     "episodes": 12,
     "studio": "Passione",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176276-ES97CHqKSrLg.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176276-ES97CHqKSrLg.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "00:30"
+      }
+    ]
   },
   {
     "title": "聖女なのに国を追い出されたので、崩壊寸前の隣国へ来ました シーズン2",
@@ -985,6 +1472,13 @@
     "genres": [
       "Fantasy",
       "Romance"
+    ],
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "01:30"
+      }
     ]
   },
   {
@@ -1006,7 +1500,14 @@
     ],
     "episodes": 12,
     "studio": "TROYCA",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/181443-Euz60QKDzsLs.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/181443-Euz60QKDzsLs.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "火",
+        "time": "12:00"
+      }
+    ]
   },
   {
     "title": "デッドアカウント",
@@ -1015,7 +1516,8 @@
     "startDate": "2026-01-14",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 187901,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187901-T91HmZAaNwOF.jpg",
@@ -1028,7 +1530,19 @@
     ],
     "episodes": 12,
     "studio": "SynergySP",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187901-03I5T8QVX1FG.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187901-03I5T8QVX1FG.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "シャンピニオンの魔女",
@@ -1037,7 +1551,8 @@
     "startDate": "2026-01-14",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 185514,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185514-mfJqhtz22l1Z.jpg",
@@ -1051,7 +1566,19 @@
     ],
     "episodes": 12,
     "studio": "Qzil.la",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185514-I19hOYFDzU1X.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185514-I19hOYFDzU1X.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "03:00"
+      },
+      {
+        "platform": "unext",
+        "day": "水",
+        "time": "03:00"
+      }
+    ]
   },
   {
     "title": "正反対な君と僕",
@@ -1060,7 +1587,8 @@
     "startDate": "2026-01-14",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 184951,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg",
@@ -1075,7 +1603,19 @@
     ],
     "episodes": 12,
     "studio": "Lapin Track",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184951-Rx1mZZfKa9IU.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184951-Rx1mZZfKa9IU.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "17:30"
+      },
+      {
+        "platform": "unext",
+        "day": "水",
+        "time": "17:30"
+      }
+    ]
   },
   {
     "title": "悪役令嬢は隣国の王太子に溺愛される",
@@ -1084,7 +1624,8 @@
     "startDate": "2026-01-14",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 195518,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195518-XXcYHi6tXM6v.jpg",
@@ -1097,7 +1638,19 @@
     ],
     "episodes": 12,
     "studio": "Studio DEEN",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195518-IpfwJgnWa6nD.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195518-IpfwJgnWa6nD.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "23:30"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "23:30"
+      }
+    ]
   },
   {
     "title": "火喰鳥 羽州ぼろ鳶組",
@@ -1106,7 +1659,8 @@
     "startDate": "2026-01-15",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 187062,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187062-JuXPEjrLQSeO.png",
@@ -1118,7 +1672,19 @@
       "Drama"
     ],
     "episodes": 12,
-    "studio": "SynergySP"
+    "studio": "SynergySP",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "月",
+        "time": "01:00"
+      }
+    ]
   },
   {
     "title": "穏やか貴族の休暇のすすめ。",
@@ -1141,7 +1707,14 @@
     ],
     "episodes": 12,
     "studio": "Ascension",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182771-93HQnmbLFYbE.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182771-93HQnmbLFYbE.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "00:30"
+      }
+    ]
   },
   {
     "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
@@ -1150,7 +1723,8 @@
     "startDate": "2026-01-15",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 185262,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185262-95wbx3Y9hCwm.jpg",
@@ -1164,7 +1738,19 @@
     ],
     "episodes": 12,
     "studio": "Yokohama Animation Lab",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185262-6EExIkvGk1dI.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185262-6EExIkvGk1dI.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "01:35"
+      },
+      {
+        "platform": "unext",
+        "day": "火",
+        "time": "01:35"
+      }
+    ]
   },
   {
     "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
@@ -1173,7 +1759,8 @@
     "startDate": "2026-01-15",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 203148,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203148-fMhz9uyA6HEK.jpg",
@@ -1185,7 +1772,19 @@
       "Fantasy"
     ],
     "episodes": null,
-    "studio": "Toon Harbor Works"
+    "studio": "Toon Harbor Works",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "05:30"
+      },
+      {
+        "platform": "unext",
+        "day": "木",
+        "time": "05:30"
+      }
+    ]
   },
   {
     "title": "お前はまだグンマを知らない ～令和版～",
@@ -1194,7 +1793,8 @@
     "startDate": "2026-01-15",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 202419,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx202419-BmPPSzsegbcv.png",
@@ -1205,7 +1805,19 @@
       "Comedy"
     ],
     "episodes": null,
-    "studio": "Imagica Infos"
+    "studio": "Imagica Infos",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "22:00"
+      },
+      {
+        "platform": "unext",
+        "day": "木",
+        "time": "22:00"
+      }
+    ]
   },
   {
     "title": "転生したらドラゴンの卵だった～最強以外目指さねぇ～",
@@ -1228,7 +1840,14 @@
     ],
     "episodes": 12,
     "studio": "GA-CREW",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187941-wdkhGnf4LUH0.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187941-wdkhGnf4LUH0.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "22:00"
+      }
+    ]
   },
   {
     "title": "【推しの子】第3期",
@@ -1237,7 +1856,8 @@
     "startDate": "2026-01-15",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 182587,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182587-fsU8LOjmd7oj.jpg",
@@ -1252,7 +1872,19 @@
     ],
     "episodes": 11,
     "studio": "Doga Kobo",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182587-SLNmuinewbUF.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182587-SLNmuinewbUF.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "23:00"
+      },
+      {
+        "platform": "unext",
+        "day": "木",
+        "time": "23:00"
+      }
+    ]
   },
   {
     "title": "姫様\"拷問\"の時間です 第2期",
@@ -1261,7 +1893,8 @@
     "startDate": "2026-01-16",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 176370,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176370-hz2H4TUeyGgt.png",
@@ -1274,7 +1907,19 @@
     ],
     "episodes": 12,
     "studio": "PINE JAM",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176370-rTxiCqbzG0DQ.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176370-rTxiCqbzG0DQ.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "勇者のクズ",
@@ -1283,7 +1928,8 @@
     "startDate": "2026-01-16",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 187989,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187989-IjVYJxi0bEcr.jpg",
@@ -1299,7 +1945,19 @@
     ],
     "episodes": 24,
     "studio": "OLM",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187989-ELfQpRahhT3L.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187989-ELfQpRahhT3L.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "01:30"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "01:30"
+      }
+    ]
   },
   {
     "title": "人外教室の人間嫌い教師",
@@ -1308,7 +1966,8 @@
     "startDate": "2026-01-16",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 198374,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198374-ROZU3qJGX4uS.jpg",
@@ -1324,7 +1983,19 @@
     ],
     "episodes": 13,
     "studio": "Asread",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198374-cnzGgIW2KzHr.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198374-cnzGgIW2KzHr.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "02:30"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "02:30"
+      }
+    ]
   },
   {
     "title": "うるわしの宵の月",
@@ -1333,7 +2004,8 @@
     "startDate": "2026-01-16",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 192507,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx192507-SCmImUlUnpAD.jpg",
@@ -1346,7 +2018,19 @@
     ],
     "episodes": 12,
     "studio": "East Fish Studio",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/192507-nv0NJmhQYTgz.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/192507-nv0NJmhQYTgz.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "17:00"
+      },
+      {
+        "platform": "unext",
+        "day": "日",
+        "time": "17:00"
+      }
+    ]
   },
   {
     "title": "カヤちゃんはコワくない",
@@ -1355,7 +2039,8 @@
     "startDate": "2026-01-16",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 183660,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183660-B6o9cMfSfScX.jpg",
@@ -1369,7 +2054,19 @@
     ],
     "episodes": 12,
     "studio": "East Fish Studio",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183660-RmcBY27wn8A4.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183660-RmcBY27wn8A4.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "金",
+        "time": "18:00"
+      },
+      {
+        "platform": "unext",
+        "day": "金",
+        "time": "18:00"
+      }
+    ]
   },
   {
     "title": "葬送のフリーレン 第2期",
@@ -1378,7 +2075,8 @@
     "startDate": "2026-01-17",
     "type": "見放題",
     "platforms": [
-      "dmmtv"
+      "dmmtv",
+      "unext"
     ],
     "anilistId": 182255,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182255-butzrqd4I0aC.jpg",
@@ -1392,7 +2090,19 @@
     ],
     "episodes": 10,
     "studio": "MADHOUSE",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182255-wyHvp6zJbWsO.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182255-wyHvp6zJbWsO.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "土",
+        "time": "00:00"
+      },
+      {
+        "platform": "unext",
+        "day": "土",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "メダリスト 第2期",
@@ -1415,7 +2125,14 @@
     ],
     "episodes": 9,
     "studio": "ENGI",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189275-WreT2tChg3a0.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189275-WreT2tChg3a0.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "02:00"
+      }
+    ]
   },
   {
     "title": "名探偵プリキュア！",
@@ -1437,7 +2154,14 @@
     ],
     "episodes": null,
     "studio": "Toei Animation",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202957-B9U0hNv2Dqap.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202957-B9U0hNv2Dqap.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "水",
+        "time": "00:00"
+      }
+    ]
   },
   {
     "title": "時光代理人 -LINK CLICK- 英都篇",
@@ -1461,7 +2185,14 @@
     ],
     "episodes": 6,
     "studio": "CMC Media",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170166-CNPbSd1EDfMf.jpg"
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170166-CNPbSd1EDfMf.jpg",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "木",
+        "time": "01:45"
+      }
+    ]
   },
   {
     "title": "天穂のサクナヒメ ココロワ稲作日誌",
@@ -1482,6 +2213,13 @@
       "Fantasy"
     ],
     "episodes": 2,
-    "studio": "P.A.WORKS"
+    "studio": "P.A.WORKS",
+    "streams": [
+      {
+        "platform": "dmmtv",
+        "day": "日",
+        "time": "17:15"
+      }
+    ]
   }
 ]

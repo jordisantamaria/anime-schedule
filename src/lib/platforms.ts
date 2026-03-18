@@ -57,6 +57,13 @@ export const platforms: Record<string, Platform> = {
     url: "https://www.hulu.jp",
     searchUrl: "https://www.hulu.jp/search?q=",
   },
+  unext: {
+    id: "unext",
+    name: "U-NEXT",
+    color: "#00b4d8",
+    url: "https://video.unext.jp",
+    searchUrl: "https://video.unext.jp/search?query=",
+  },
 };
 
 export function getPlatformSearchUrl(platformId: string, animeTitle: string): string {
