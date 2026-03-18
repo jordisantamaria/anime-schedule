@@ -2,20 +2,37 @@
 
 import { useState } from "react";
 
-export function TrailerLink({ trailerId, title }: { trailerId: string; title: string }) {
+type Props = {
+  trailerId: string;
+  title: string;
+  variant?: "link" | "overlay";
+};
+
+export function TrailerLink({ trailerId, title, variant = "link" }: Props) {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <button
-        onClick={() => setOpen(true)}
-        className="inline-flex items-center gap-1.5 text-xs text-accent hover:text-accent-hover font-bold"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
-          <path d="M8 5v14l11-7z" />
-        </svg>
-        PVを再生
-      </button>
+      {variant === "overlay" ? (
+        <button
+          onClick={() => setOpen(true)}
+          className="flex h-14 w-14 items-center justify-center rounded-full bg-black/50 hover:bg-black/70 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-7 w-7 ml-1">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </button>
+      ) : (
+        <button
+          onClick={() => setOpen(true)}
+          className="inline-flex items-center gap-1.5 text-xs text-accent hover:text-accent-hover font-bold"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+          PVを再生
+        </button>
+      )}
 
       {open && (
         <div

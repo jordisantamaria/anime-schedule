@@ -29,20 +29,36 @@ export default async function AnimeDetail({
       </Link>
 
       <div className="rounded bg-bg-card border border-border overflow-hidden">
+        {/* Mobile: banner full width with play button overlay */}
+        {(anime.banner || anime.image) && (
+          <div className="sm:hidden relative">
+            <img
+              src={anime.banner || anime.image!}
+              alt={anime.title}
+              className={`w-full object-cover ${anime.banner ? "aspect-video" : "aspect-video object-top"}`}
+            />
+            {anime.trailer && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <TrailerLink trailerId={anime.trailer} title={anime.title} variant="overlay" />
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="p-4 sm:p-5">
           <div className="flex gap-4 sm:gap-5">
-            {/* Poster + PV button below */}
-            <div className="shrink-0">
+            {/* Desktop: poster + PV below */}
+            <div className="hidden sm:block shrink-0">
               {anime.image && (
                 <img
                   src={anime.image}
                   alt={anime.title}
-                  className="h-44 w-28 sm:h-72 sm:w-48 rounded object-cover"
+                  className="h-72 w-48 rounded object-cover"
                 />
               )}
               {anime.trailer && (
                 <div className="mt-1.5">
-                  <TrailerLink trailerId={anime.trailer} title={anime.title} />
+                  <TrailerLink trailerId={anime.trailer} title={anime.title} variant="link" />
                 </div>
               )}
             </div>
