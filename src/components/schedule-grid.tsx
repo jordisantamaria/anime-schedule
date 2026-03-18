@@ -68,7 +68,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           onChange={(e) =>
             setSelectedPlatform(e.target.value as PlatformId | "all")
           }
-          className="rounded border border-border bg-bg-card px-3 py-2 text-sm text-text-primary outline-none focus:border-accent"
+          className="rounded border border-border bg-bg-card pl-3 pr-8 py-2 text-sm text-text-primary outline-none focus:border-accent"
         >
           <option value="all">全プラットフォーム</option>
           {allPlatformIds.map((pid) => (
