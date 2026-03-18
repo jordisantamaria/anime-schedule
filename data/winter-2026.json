@@ -133,7 +133,8 @@
       "unext",
       "danime",
       "abema",
-      "amazon"
+      "amazon",
+      "netflix"
     ],
     "anilistId": 189258,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189258-qhtrra5ebBm6.jpg",
@@ -170,6 +171,11 @@
         "platform": "amazon",
         "day": "土",
         "time": "18:00"
+      },
+      {
+        "platform": "netflix",
+        "day": null,
+        "time": null
       }
     ]
   },
@@ -229,7 +235,8 @@
     "platforms": [
       "dmmtv",
       "danime",
-      "abema"
+      "abema",
+      "netflix"
     ],
     "anilistId": 179930,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179930-xUYfykPhQmGm.jpg",
@@ -260,6 +267,11 @@
         "platform": "abema",
         "day": "金",
         "time": "01:10"
+      },
+      {
+        "platform": "netflix",
+        "day": null,
+        "time": null
       }
     ]
   },
@@ -1144,7 +1156,8 @@
       "unext",
       "danime",
       "abema",
-      "amazon"
+      "amazon",
+      "netflix"
     ],
     "anilistId": 189137,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189137-cCXaEiX0bJb4.jpg",
@@ -1182,6 +1195,11 @@
         "platform": "amazon",
         "day": "金",
         "time": "02:00"
+      },
+      {
+        "platform": "netflix",
+        "day": null,
+        "time": null
       }
     ]
   },
@@ -3489,7 +3507,8 @@
     "startDate": "2026-01-12",
     "type": "見放題",
     "platforms": [
-      "amazon"
+      "amazon",
+      "netflix"
     ],
     "anilistId": 166613,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg",
@@ -3510,6 +3529,11 @@
         "platform": "amazon",
         "day": "日",
         "time": "00:15"
+      },
+      {
+        "platform": "netflix",
+        "day": null,
+        "time": null
       }
     ]
   },
@@ -3843,5 +3867,35 @@
         "time": null
       }
     ]
+  },
+  {
+    "title": "終末のワルキューレ III",
+    "day": "水",
+    "time": null,
+    "startDate": "2025-12-10",
+    "type": "見放題",
+    "platforms": [
+      "netflix"
+    ],
+    "streams": [
+      {
+        "platform": "netflix",
+        "day": "水",
+        "time": null
+      }
+    ],
+    "anilistId": 187921,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187921-jHCMGThdJtS6.jpg",
+    "titleRomaji": "Shuumatsu no Valkyrie III",
+    "titleEnglish": "Record of Ragnarok III",
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "episodes": 15,
+    "studio": "Yumeta Company",
+    "synopsis": "神々と人類の存亡を賭けた最終闘技場ラグナロク。人類側の戦乙女ワルキューレが選んだ闘士たちが、神々に挑む。第3シーズン。"
   }
 ]
