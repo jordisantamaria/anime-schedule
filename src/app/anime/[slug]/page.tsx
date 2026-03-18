@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAnimeBySlug, getAnimeData, DAY_LABELS } from "@/lib/data";
 import { platforms, getPlatformSearchUrl } from "@/lib/platforms";
+import { CurrentEpisode } from "@/components/current-episode";
 
 export function generateStaticParams() {
   return getAnimeData().map((anime) => ({ slug: anime.slug }));
@@ -55,6 +56,7 @@ export default async function AnimeDetail({
                   <td>曜日</td>
                   <td>{anime.day} ({DAY_LABELS[anime.day]})</td>
                 </tr>
+                <CurrentEpisode anime={anime} />
                 <tr>
                   <td>配信時間</td>
                   <td className="font-mono text-accent">{anime.time ?? "未定"}</td>
