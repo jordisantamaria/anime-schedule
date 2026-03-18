@@ -19,7 +19,7 @@ export function CurrentEpisode({ anime }: { anime: AnimeEntry }) {
   return (
     <tr>
       <td>最新話</td>
-      <td className="text-accent">第{episode}話{anime.episodes ? ` / 全${anime.episodes}話` : ""}</td>
+      <td className="text-accent">第{episode}話</td>
     </tr>
   );
 }
