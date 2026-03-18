@@ -100,14 +100,14 @@ export function ScheduleGrid({ animeByDay }: Props) {
         </div>
       </div>
 
-      <div className="space-y-8">
+      <div className="space-y-10">
         {daysToShow.map((day) => {
           const filtered = filterAnime(animeByDay[day]);
           if (filtered.length === 0) return null;
 
           return (
             <section key={day}>
-              <h2 className="mb-3 text-base font-bold">
+              <h2 className="mb-3 border-l-4 border-accent pl-3 text-base font-bold">
                 {day}曜配信
                 <span className="ml-2 text-xs font-normal text-text-muted">
                   {DAY_LABELS[day]}
