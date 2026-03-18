@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { AnimeEntry, DayOfWeek, PlatformId } from "@/lib/types";
-import { DAYS, DAY_LABELS } from "@/lib/constants";
-import { platforms } from "@/lib/platforms"; // used in filter select
+import { DAYS, DAY_LABELS, PLATFORM_ORDER } from "@/lib/constants";
+import { platforms } from "@/lib/platforms";
 
 type Props = {
   animeByDay: Record<DayOfWeek, AnimeEntry[]>;
@@ -72,7 +72,7 @@ export function ScheduleGrid({ animeByDay }: Props) {
           className="appearance-none rounded border border-border bg-bg-card pl-3 pr-8 py-2 text-sm text-text-primary outline-none focus:border-accent"
         >
           <option value="all">全プラットフォーム</option>
-          {allPlatformIds.map((pid) => (
+          {PLATFORM_ORDER.filter((pid) => allPlatformIds.includes(pid)).map((pid) => (
             <option key={pid} value={pid}>
               {platforms[pid].name}
             </option>

@@ -2,6 +2,7 @@
 
 import { PlatformId } from "@/lib/types";
 import { platforms } from "@/lib/platforms";
+import { PLATFORM_ORDER } from "@/lib/constants";
 
 type Props = {
   available: PlatformId[];
@@ -20,7 +21,7 @@ export function PlatformFilter({ available, selected, onChange }: Props) {
 
   return (
     <div className="flex flex-wrap gap-1.5">
-      {available.map((pid) => {
+      {PLATFORM_ORDER.filter((pid) => available.includes(pid)).map((pid) => {
         const p = platforms[pid];
         const isActive = selected.includes(pid);
         return (

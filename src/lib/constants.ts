@@ -1,4 +1,9 @@
-import { DayOfWeek } from "./types";
+import { DayOfWeek, PlatformId } from "./types";
+
+// Ordered by number of anime (most → least)
+export const PLATFORM_ORDER: PlatformId[] = [
+  "dmmtv", "danime", "abema", "amazon", "unext", "netflix", "disney",
+];
 
 export const DAYS: DayOfWeek[] = ["月", "火", "水", "木", "金", "土", "日"];
 
