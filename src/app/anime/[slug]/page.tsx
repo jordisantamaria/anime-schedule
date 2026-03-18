@@ -31,14 +31,21 @@ export default async function AnimeDetail({
       <div className="rounded bg-bg-card border border-border overflow-hidden">
         <div className="p-4 sm:p-5">
           <div className="flex gap-4 sm:gap-5">
-            {/* Poster - same image as home, always visible */}
-            {anime.image && (
-              <img
-                src={anime.image}
-                alt={anime.title}
-                className="h-44 w-28 sm:h-72 sm:w-48 rounded object-cover shrink-0"
-              />
-            )}
+            {/* Poster + PV button below */}
+            <div className="shrink-0">
+              {anime.image && (
+                <img
+                  src={anime.image}
+                  alt={anime.title}
+                  className="h-44 w-28 sm:h-72 sm:w-48 rounded object-cover"
+                />
+              )}
+              {anime.trailer && (
+                <div className="mt-1.5">
+                  <TrailerLink trailerId={anime.trailer} title={anime.title} />
+                </div>
+              )}
+            </div>
 
             <div className="flex-1 min-w-0">
               <h1 className="text-lg sm:text-xl font-bold">{anime.title}</h1>
@@ -47,12 +54,6 @@ export default async function AnimeDetail({
               )}
               {anime.titleEnglish && (
                 <p className="text-xs text-text-muted">{anime.titleEnglish}</p>
-              )}
-
-              {anime.trailer && (
-                <div className="mt-2">
-                  <TrailerLink trailerId={anime.trailer} title={anime.title} />
-                </div>
               )}
 
               <table className="mt-3 sm:mt-4 text-sm">
