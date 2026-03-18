@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "アニメスケジュール JP - 配信スケジュール",
+  title: "PaoPaoAnime - 今期アニメの配信スケジュール",
   description:
-    "日本の配信プラットフォームのアニメ週間スケジュール。DMM TV、Netflix、ABEMAなどの配信時間を確認できます。",
+    "今期のアニメがどのプラットフォームで何曜日の何時に配信されるかをまとめて確認。DMM TV・U-NEXT・dアニメストア・ABEMAなど複数サービスを網羅。",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
         <header className="bg-nav text-white">
           <div className="mx-auto grid max-w-6xl grid-cols-3 items-center px-4 py-3">
             <a href="/" className="text-lg font-bold tracking-tight">
-              アニメスケジュール.jp
+              PaoPaoAnime
             </a>
             <nav className="flex items-center justify-center gap-5">
               <NavLinks />
