@@ -63,7 +63,7 @@ export default async function AnimeDetail({
             </div>
 
             <div className="flex-1 min-w-0">
-              <h1 className="text-lg sm:text-xl font-bold">{anime.title}</h1>
+              <h1 className="text-base sm:text-xl font-bold">{anime.title}</h1>
               {anime.titleRomaji && (
                 <p className="text-xs sm:text-sm text-text-secondary">{anime.titleRomaji}</p>
               )}
