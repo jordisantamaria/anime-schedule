@@ -27,6 +27,7 @@ export type AnimeEntry = {
   season?: string;
   trailer?: string;
   batchRelease?: boolean;
+  episodeOffset?: number; // adjust episode count (e.g. -2 for skipped weeks)
 };
 
 export type Platform = {
