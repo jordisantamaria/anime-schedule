@@ -14,7 +14,9 @@ export default function Home() {
       <h2 className="mb-4 text-xl font-bold">最新エピソード</h2>
       <RecentEpisodes animeList={animeList} />
 
-      <h2 className="mt-10 mb-4 text-xl font-bold">最新追加アニメ</h2>
+      <div className="mt-12 mb-4 border-t border-border pt-8">
+        <h2 className="text-xl font-bold">最新追加アニメ</h2>
+      </div>
       <LatestAnime animeList={animeList} />
     </div>
   );
