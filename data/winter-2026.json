@@ -4241,27 +4241,6 @@
     "studio": "Studio Outrigger"
   },
   {
-    "title": "エヴァンゲリオン放送30周年記念特別興行",
-    "slug": "エヴァンゲリオン放送30周年記念特別興行",
-    "day": "土",
-    "time": null,
-    "startDate": "2026-02-21",
-    "type": "見放題",
-    "platforms": [],
-    "format": "SPECIAL",
-    "anilistId": 204270,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204270-6uMH5dFbyQPw.jpg",
-    "synopsis": "A new short animation for the Evangelion series that debut at the “EVANGELION:30+；30th ANNIVERSARY OF EVANGELION”  fes. in Yokohama Arena.",
-    "titleRomaji": "Evangelion: Housou 30 Shuunen Kinen Tokubetsu Kougyou",
-    "titleEnglish": "Evangelion 30th Anniversary Special Screening",
-    "genres": [
-      "Comedy",
-      "Psychological"
-    ],
-    "episodes": 1,
-    "studio": "Studio Khara"
-  },
-  {
     "title": "新劇場版 銀魂 -吉原大炎上-",
     "slug": "新劇場版-銀魂-吉原大炎上",
     "day": "金",
@@ -4466,25 +4445,6 @@
     "studio": "Actas"
   },
   {
-    "title": "アイドルマスター ミリオンライブ！～いつか、真ん中で～",
-    "slug": "アイドルマスター-ミリオンライブ-いつか-真ん中で",
-    "day": "金",
-    "time": null,
-    "startDate": "2026-03-27",
-    "type": "見放題",
-    "platforms": [],
-    "format": "OVA",
-    "anilistId": 187375,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187375-0Vquhap6D5zX.jpg",
-    "titleRomaji": "THE IDOLM@STER Million Live!: Itsuka, Mannaka de",
-    "titleEnglish": null,
-    "genres": [
-      "Music"
-    ],
-    "episodes": 1,
-    "studio": "Shirogumi"
-  },
-  {
     "title": "映画ドラえもん 新・のび太の海底鬼岩城",
     "slug": "映画ドラえもん-新-のび太の海底鬼岩城",
     "day": "金",
@@ -4549,25 +4509,6 @@
     ],
     "episodes": 1,
     "studio": "Studio Outrigger"
-  },
-  {
-    "title": "ヤニねこ ミニ",
-    "slug": "ヤニねこ-ミニ",
-    "day": "日",
-    "time": null,
-    "startDate": "2026-02-22",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 208105,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b208105-pYHSBy6n9naY.png",
-    "synopsis": "Chibi shorts posted on the official  Yani Neko YouTube channel and Twitter account of the main series.",
-    "titleRomaji": "Yani Neko Mini",
-    "titleEnglish": null,
-    "genres": [
-      "Comedy"
-    ],
-    "episodes": null
   },
   {
     "title": "イチゴ哀歌 ～雑で生イキな妹と割り切れない兄～",
@@ -4661,7 +4602,15 @@
     "time": null,
     "startDate": "2025-04-06",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "netflix",
+      "abema",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 178052,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178052-igWygf0ZG1gl.jpg",
@@ -4677,32 +4626,20 @@
     "studio": "SILVER LINK."
   },
   {
-    "title": "Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)",
-    "day": "月",
-    "time": null,
-    "startDate": "2025-04-21",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 186151,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186151-oUFvXQXVBMMP.png",
-    "synopsis": "Yu-Gi-Oh! CARD GAME THE CHRONICLES is a monthly short-anime series showcasing Official Card Game-original card themes. It is an expansion of the demo reel of the same name released the previous year.",
-    "titleRomaji": "Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)",
-    "titleEnglish": "Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)",
-    "genres": [
-      "Action",
-      "Fantasy"
-    ],
-    "episodes": null,
-    "studio": "KONAMI animation"
-  },
-  {
     "title": "コウペンちゃん",
     "day": "日",
     "time": null,
     "startDate": "2025-04-06",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "netflix",
+      "abema",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV_SHORT",
     "anilistId": 185646,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185646-2eGmsnaSHiLC.jpg",
@@ -4721,7 +4658,14 @@
     "time": null,
     "startDate": "2025-04-06",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 184470,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184470-m2izEvBeO49C.jpg",
@@ -4741,7 +4685,14 @@
     "time": null,
     "startDate": "2025-04-05",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV_SHORT",
     "anilistId": 184289,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184289-v85FJN0O4S1j.jpg",
@@ -4760,7 +4711,13 @@
     "time": null,
     "startDate": "2025-04-06",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV_SHORT",
     "anilistId": 185718,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185718-luZZKvM7pOZ2.png",
@@ -4779,7 +4736,10 @@
     "time": null,
     "startDate": "2025-07-02",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "unext"
+    ],
     "format": "TV_SHORT",
     "anilistId": 193883,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx193883-Im5tNHwtfAmz.jpg",
@@ -4799,7 +4759,9 @@
     "time": null,
     "startDate": "2025-07-20",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "danime"
+    ],
     "format": "TV_SHORT",
     "anilistId": 196227,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196227-B9kbcrGihskA.png",
@@ -4818,7 +4780,15 @@
     "time": null,
     "startDate": "2025-10-04",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "amazon",
+      "danime",
+      "disney",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 162669,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162669-FLYUTftoXgMh.jpg",
@@ -4841,7 +4811,14 @@
     "time": null,
     "startDate": "2025-10-07",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 180082,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180082-IZAlf06G2VVm.png",
@@ -4861,7 +4838,16 @@
     "time": null,
     "startDate": "2025-10-05",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "netflix",
+      "abema",
+      "crunchyroll",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 187464,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187464-NJtK3VC54vPm.jpg",
@@ -4881,7 +4867,15 @@
     "time": null,
     "startDate": "2025-10-05",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "crunchyroll",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 188388,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188388-aXx9fsnvezBf.jpg",
@@ -4903,7 +4897,16 @@
     "time": null,
     "startDate": "2025-10-05",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "netflix",
+      "abema",
+      "crunchyroll",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV",
     "anilistId": 196553,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196553-9whoPCB5gyKB.jpg",
@@ -4924,7 +4927,14 @@
     "time": null,
     "startDate": "2025-10-03",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "amazon",
+      "danime",
+      "hulu",
+      "unext"
+    ],
     "format": "TV_SHORT",
     "anilistId": 198117,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198117-ms0mzmuyOw8n.png",
@@ -4941,7 +4951,13 @@
     "time": null,
     "startDate": "2025-10-02",
     "type": "見放題",
-    "platforms": [],
+    "platforms": [
+      "dmmtv",
+      "abema",
+      "amazon",
+      "danime",
+      "unext"
+    ],
     "format": "ONA",
     "anilistId": 187166,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187166-ASfp7wErGrxQ.png",
@@ -4954,139 +4970,5 @@
     ],
     "episodes": 52,
     "studio": "AtoriE"
-  },
-  {
-    "title": "コアラ絵日記",
-    "day": "木",
-    "time": null,
-    "startDate": "2025-10-02",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 194389,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194389-DAbj4TOj5GB9.png",
-    "synopsis": "The manga is about Koala who writes about daily life, whether it's good or bad, happy or sad, Koala treats every day as a precious day. Koala believes that today is a good day, and tomorrow will be a good day too.",
-    "titleRomaji": "Koala Enikki",
-    "titleEnglish": "Koala's Diary",
-    "genres": [
-      "Slice of Life"
-    ],
-    "episodes": null,
-    "studio": "studio MOTHER"
-  },
-  {
-    "title": "うごく！ねこむかしばなし",
-    "day": "水",
-    "time": null,
-    "startDate": "2025-10-15",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 188529,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188529-6o9byjahRpEx.jpg",
-    "synopsis": "What if cats appeared in that story…? When beloved old tales and fairy stories are joined by cats, a surreal and heartwarming new adventure begins…!? Tabby cats, orange cats, calico cats, and white cats— a delightful mix of feline friends woven into timeless stories is sure to soothe the hearts of all humanity! A charming cat comedy is about to unfold!",
-    "titleRomaji": "Ugoku! Neko Mukashi Banashi",
-    "titleEnglish": "Cat Tales",
-    "genres": [
-      "Comedy"
-    ],
-    "episodes": null,
-    "studio": "Studio Comet"
-  },
-  {
-    "title": "ぷちきゅあ～Precure Fairies～ シーズン２",
-    "day": "木",
-    "time": null,
-    "startDate": "2025-10-09",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 199635,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199635-rgif9o9VWMrt.png",
-    "synopsis": "The stage moves from the Mysterious Amusement Park to the \"Strange Paradise,\" where our friends from season 1, PetitCure Mofurun and PetitCure Pollun, will meet new allies like PetitCure Niko and PetitCure Candy!\n\n\n\nIn a Strange Paradise entirely made up of sweets, everyone goes on a candy-eating spree!? Many more heartwarming and cute PetitCure stories that'll make you smile and feel all warm inside await ♡ \n\n\n\n (Source: Official Website News, translated, edited)",
-    "titleRomaji": "PetitCure: Precure Fairies Season 2",
-    "titleEnglish": null,
-    "genres": [
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "episodes": null,
-    "studio": "IKIF+"
-  },
-  {
-    "title": "うそ探偵トマント",
-    "day": "月",
-    "time": null,
-    "startDate": "2025-10-06",
-    "type": "見放題",
-    "platforms": [],
-    "format": "TV_SHORT",
-    "anilistId": 199008,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199008-P45zksUSzTWD.png",
-    "synopsis": "Tomanto and friends as they solve mysteries using vegetable and fruit trivia.",
-    "titleRomaji": "Uso Tantei Tomanto",
-    "titleEnglish": null,
-    "genres": [
-      "Mystery"
-    ],
-    "episodes": 26,
-    "studio": "Fanworks"
-  },
-  {
-    "title": "どこでもマキバオー ～ワールドツアー～",
-    "day": "水",
-    "time": null,
-    "startDate": "2025-10-08",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 199931,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199931-EhQ6yMCbEvik.png",
-    "synopsis": "Second season of Dokodemo Makibao",
-    "titleRomaji": "Dokodemo Makibao: World Tour",
-    "titleEnglish": null,
-    "genres": [
-      "Comedy",
-      "Sports"
-    ],
-    "episodes": null,
-    "studio": "DLE"
-  },
-  {
-    "title": "あたしンちNEXT 第2期",
-    "day": "木",
-    "time": null,
-    "startDate": "2025-11-20",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 203146,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203146-6Zx7wl6hOEFH.png",
-    "synopsis": "Second season of Atashin'chi Next.",
-    "titleRomaji": "Atashin'chi NEXT 2",
-    "titleEnglish": null,
-    "genres": [
-      "Comedy"
-    ],
-    "episodes": 5,
-    "studio": "Shin-Ei Animation"
-  },
-  {
-    "title": "インプる君の存在しないお仕事",
-    "day": "月",
-    "time": null,
-    "startDate": "2025-09-01",
-    "type": "見放題",
-    "platforms": [],
-    "format": "ONA",
-    "anilistId": 200375,
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b200375-RxdzZA1qFTiZ.png",
-    "synopsis": "The anime is based on temp agency Improve's mascot Inpuru-kun. It centers on Inpuru-kun taking on absurd temp jobs.",
-    "titleRomaji": "Inpuru-kun no Sonzai Shinai Oshigoto",
-    "titleEnglish": null,
-    "genres": [
-      "Comedy"
-    ],
-    "episodes": null
   }
 ]
