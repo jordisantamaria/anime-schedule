@@ -3939,5 +3939,34 @@
     "episodes": 15,
     "studio": "Yumeta Company",
     "synopsis": "神々と人類の存亡を賭けた最終闘技場ラグナロク。人類側の戦乙女ワルキューレが選んだ闘士たちが、神々に挑む。第3シーズン。"
+  },
+  {
+    "title": "刃牙道",
+    "day": "木",
+    "time": null,
+    "startDate": "2026-02-26",
+    "type": "見放題",
+    "platforms": [
+      "netflix"
+    ],
+    "anilistId": 176509,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176509-GRUa4fzyAM9u.jpg",
+    "synopsis": "最強の象徴・宮本武蔵が、武器の使用が許された地下闘技場に降り立つ。愚地独歩、渋川剛気、烈海王ら地下闘士たちが次々と武蔵に挑むが、その神がかりの強さの前に敗北は死を意味する。拳と刀が激突する、史上最も危険な戦いが今始まる。",
+    "titleRomaji": "BAKI-DOU",
+    "titleEnglish": "BAKI-DOU: The Invincible Samurai",
+    "genres": [
+      "Action",
+      "Sports"
+    ],
+    "episodes": 13,
+    "studio": "TMS Entertainment",
+    "streams": [
+      {
+        "platform": "netflix",
+        "day": "木",
+        "time": null
+      }
+    ],
+    "trailer": "_TYx9iNvk9E"
   }
 ]
