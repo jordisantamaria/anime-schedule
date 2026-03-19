@@ -28,6 +28,7 @@ export type AnimeEntry = {
   trailer?: string;
   batchRelease?: boolean;
   episodeOffset?: number; // adjust episode count (e.g. -2 for skipped weeks)
+  episodeStart?: number; // starting episode number for continuations (e.g. 25 for S3)
 };
 
 export type Platform = {

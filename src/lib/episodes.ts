@@ -62,7 +62,7 @@ export function getRecentEpisodes(
     const weeksSinceStart = Math.floor(
       (recent.getTime() - startDate.getTime()) / msPerWeek
     );
-    const episode = weeksSinceStart + 1 + (anime.episodeOffset ?? 0);
+    const episode = weeksSinceStart + (anime.episodeStart ?? 1) + (anime.episodeOffset ?? 0);
 
     if (episode < 1) continue;
     // Skip if anime has finished

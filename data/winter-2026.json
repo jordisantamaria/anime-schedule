@@ -99,7 +99,8 @@
       }
     ],
     "trailer": "7hWWDxF0hyo",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": -1
   },
   {
     "title": "シンデレラ・シェフ ～萌妻食神～ シーズン2",
@@ -265,7 +266,8 @@
       }
     ],
     "trailer": "qFmSz2ZVxCA",
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": 1
   },
   {
     "title": "花ざかりの君たちへ",
@@ -706,7 +708,8 @@
       }
     ],
     "trailer": "GcRs1JC7xeg",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": -1
   },
   {
     "title": "MFゴースト 3rd Season",
@@ -771,7 +774,8 @@
       }
     ],
     "trailer": "HJuYJpMJdGs",
-    "format": "ONA"
+    "format": "ONA",
+    "episodeStart": 25
   },
   {
     "title": "アルネの事件簿",
@@ -974,7 +978,8 @@
       }
     ],
     "trailer": "URcT4mR6KSU",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "透明男と人間女〜そのうち夫婦になるふたり〜",
@@ -1211,7 +1216,8 @@
       }
     ],
     "trailer": "EIJOU7qjq6s",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "鎧真伝サムライトルーパー",
@@ -1266,7 +1272,8 @@
       }
     ],
     "trailer": "loJ05nefclc",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "幼馴染とはラブコメにならない",
@@ -1321,7 +1328,8 @@
       }
     ],
     "trailer": "iSRJs8e5aRo",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "違国日記",
@@ -1376,7 +1384,8 @@
       }
     ],
     "trailer": "DX6mmkoByyc",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "カードファイト!! ヴァンガード Divinez 幻真星戦編",
@@ -1423,7 +1432,8 @@
         "time": "08:30"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": -2
   },
   {
     "title": "ハイスクール！奇面組（2026年）",
@@ -1544,7 +1554,8 @@
       }
     ],
     "trailer": "-lgT3jToqOI",
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": 1
   },
   {
     "title": "TRIGUN STARGAZE",
@@ -1657,7 +1668,8 @@
       }
     ],
     "trailer": "_htCsAG0hUo",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
@@ -1713,7 +1725,8 @@
       }
     ],
     "trailer": "RIj0yJCVNuU",
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": 1
   },
   {
     "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
@@ -1770,7 +1783,8 @@
       }
     ],
     "trailer": "EIlO6O5W2Ag",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "真夜中ハートチューン",
@@ -1818,7 +1832,8 @@
       }
     ],
     "trailer": "poUibdNvxPQ",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "闇芝居 十六期",
@@ -2078,7 +2093,8 @@
       }
     ],
     "trailer": "4JenstiukSo",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
@@ -2183,7 +2199,8 @@
       }
     ],
     "trailer": "0wPR_-NPgQo",
-    "format": "TV_SHORT"
+    "format": "TV_SHORT",
+    "episodeOffset": 1
   },
   {
     "title": "地獄先生ぬ〜べ〜 第2クール（2025）",
@@ -2251,7 +2268,8 @@
       }
     ],
     "trailer": "qWHY5_G_BG0",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "魔都精兵のスレイブ2 ご褒美Ver.",
@@ -2499,7 +2517,8 @@
       }
     ],
     "trailer": "v3JunzVhGwQ",
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "正反対な君と僕",
@@ -2674,7 +2693,8 @@
         "time": "00:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": -1
   },
   {
     "title": "穏やか貴族の休暇のすすめ。",
@@ -2711,7 +2731,8 @@
         "time": "00:30"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
@@ -2914,7 +2935,8 @@
         "time": "22:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "【推しの子】第3期",
@@ -2982,7 +3004,8 @@
         "time": "23:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "姫様\"拷問\"の時間です 第2期",
@@ -3042,7 +3065,8 @@
         "time": "00:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "勇者のクズ",
@@ -3099,7 +3123,8 @@
         "time": "01:30"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "人外教室の人間嫌い教師",
@@ -3156,7 +3181,8 @@
         "time": "02:30"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "うるわしの宵の月",
@@ -3210,7 +3236,8 @@
         "time": "17:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "カヤちゃんはコワくない",
@@ -3265,7 +3292,8 @@
         "time": "18:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "葬送のフリーレン 第2期",
@@ -3332,7 +3360,8 @@
         "time": "00:00"
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": -1
   },
   {
     "title": "メダリスト 第2期",
@@ -3558,7 +3587,8 @@
         "time": null
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 1
   },
   {
     "title": "魔術師クノンは見えている",
@@ -3601,7 +3631,8 @@
         "time": "00:00"
       }
     ],
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": 1
   },
   {
     "title": "炎炎ノ消防隊 参ノ章",
@@ -3663,7 +3694,8 @@
         "time": null
       }
     ],
-    "format": "TV"
+    "format": "TV",
+    "episodeOffset": 2
   },
   {
     "title": "ゴールデンカムイ 最終章",
@@ -3737,7 +3769,8 @@
         "time": "23:30"
       }
     ],
-    "format": "TV_SHORT"
+    "format": "TV_SHORT",
+    "episodeOffset": -10
   },
   {
     "title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！",
@@ -3777,7 +3810,8 @@
         "time": null
       }
     ],
-    "format": "MOVIE"
+    "format": "MOVIE",
+    "episodeOffset": -7
   },
   {
     "title": "ブラックジャックやねん",
@@ -3805,7 +3839,8 @@
         "time": null
       }
     ],
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": 1
   },
   {
     "title": "秘密結社 鷹の爪XX",
@@ -3833,7 +3868,8 @@
         "time": null
       }
     ],
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": 1
   },
   {
     "title": "ゲルぴよ",
@@ -3861,7 +3897,8 @@
         "time": null
       }
     ],
-    "format": "TV_SHORT"
+    "format": "TV_SHORT",
+    "episodeOffset": -2
   },
   {
     "title": "お姉ちゃんごっこ",
@@ -3987,7 +4024,8 @@
       "Supernatural"
     ],
     "episodes": null,
-    "studio": "David Production"
+    "studio": "David Production",
+    "episodeOffset": -1
   },
   {
     "title": "超かぐや姫！",
@@ -4551,7 +4589,8 @@
       }
     ],
     "trailer": "j5m10YML4b4",
-    "format": "ONA"
+    "format": "ONA",
+    "episodeOffset": -3
   },
   {
     "title": "有栖川煉ってホントは女なんだよね。",
@@ -4623,7 +4662,8 @@
       "Music"
     ],
     "episodes": 48,
-    "studio": "SILVER LINK."
+    "studio": "SILVER LINK.",
+    "episodeOffset": -4
   },
   {
     "title": "コウペンちゃん",
@@ -4677,7 +4717,8 @@
       "Slice of Life"
     ],
     "episodes": null,
-    "studio": "OLM"
+    "studio": "OLM",
+    "episodeOffset": -1
   },
   {
     "title": "かいじゅうせかいせいふく",
@@ -4703,7 +4744,8 @@
       "Slice of Life"
     ],
     "episodes": 50,
-    "studio": "DLE"
+    "studio": "DLE",
+    "episodeOffset": -1
   },
   {
     "title": "最強王図鑑 ～The Ultimate Tournament～",
@@ -4728,7 +4770,8 @@
       "Action"
     ],
     "episodes": null,
-    "studio": "OLM"
+    "studio": "OLM",
+    "episodeOffset": -1
   },
   {
     "title": "ちびゴジラの逆襲(第3期)",
@@ -4772,7 +4815,8 @@
       "Slice of Life"
     ],
     "episodes": null,
-    "studio": "Tsumupapa"
+    "studio": "Tsumupapa",
+    "episodeOffset": -26
   },
   {
     "title": "不滅のあなたへ Season 3",
@@ -4803,7 +4847,8 @@
       "Supernatural"
     ],
     "episodes": 22,
-    "studio": "Drive"
+    "studio": "Drive",
+    "episodeOffset": -5
   },
   {
     "title": "千歳くんはラムネ瓶のなか",
@@ -4830,7 +4875,8 @@
       "Romance"
     ],
     "episodes": 13,
-    "studio": "feel."
+    "studio": "feel.",
+    "episodeOffset": -14
   },
   {
     "title": "東島丹三郎は仮面ライダーになりたい",
@@ -4859,7 +4905,8 @@
       "Comedy"
     ],
     "episodes": 24,
-    "studio": "LIDENFILMS"
+    "studio": "LIDENFILMS",
+    "episodeOffset": -1
   },
   {
     "title": "DIGIMON BEATBREAK",
@@ -4889,7 +4936,8 @@
       "Sci-Fi"
     ],
     "episodes": null,
-    "studio": "Toei Animation"
+    "studio": "Toei Animation",
+    "episodeOffset": -2
   },
   {
     "title": "SI-VIS: The Sound of Heroes",
@@ -4919,7 +4967,8 @@
       "Sci-Fi"
     ],
     "episodes": 24,
-    "studio": "Studio VOLN"
+    "studio": "Studio VOLN",
+    "episodeOffset": -2
   },
   {
     "title": "ガングリオン",
@@ -4943,7 +4992,8 @@
     "titleEnglish": null,
     "genres": [],
     "episodes": 24,
-    "studio": "studio maf"
+    "studio": "studio maf",
+    "episodeOffset": -2
   },
   {
     "title": "元祖！バンドリちゃん",
