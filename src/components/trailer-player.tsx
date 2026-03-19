@@ -76,7 +76,7 @@ export function AnimeTrailer({ trailerId, title, posterSrc, bannerSrc, children,
       <div className="p-4 sm:p-5">
         <div className="flex gap-4 sm:gap-5">
           {/* Desktop: poster column */}
-          <div className="hidden sm:block shrink-0">
+          <div className="hidden sm:flex sm:flex-col shrink-0">
             <button onClick={play} className="relative group cursor-pointer">
               <img
                 src={posterSrc}
