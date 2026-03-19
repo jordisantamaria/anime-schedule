@@ -26,13 +26,11 @@
 
 ---
 
-## Post-Launch v1.1 — Mi lista
+## Post-Launch v1.1 — Personalización
 
 - [ ] Guardar "mis plataformas" en localStorage (onboarding modal)
 - [ ] Home filtra automáticamente por tus plataformas
-- [ ] Guardar "mis animes" (favoritos) en localStorage
-- [ ] Vista "Mi lista" — solo tus animes con sus horarios
-- [ ] Notificación visual cuando hay episodio nuevo de tu lista
+- [ ] Notificación visual cuando hay episodio nuevo
 
 ---
 
@@ -54,12 +52,16 @@
 
 ---
 
-## v2.0 — Auth & Premium
+## v2.0 — Auth & Freemium
 
 - [ ] Login (Auth.js — Google/Twitter)
-- [ ] Migrar localStorage → base de datos (Neon/Drizzle)
-- [ ] Sync favoritos entre dispositivos
+- [ ] Base de datos (Neon/Drizzle)
+- [ ] Sync plataformas entre dispositivos
 - [ ] Premium features:
+  - [ ] Drop anime — ocultar animes que no te interesan
+    - Interfaz limpia: solo ves lo nuevo + lo que no has descartado
+    - Botón de drop en cada card y en la página de detalle
+    - Vista para gestionar drops (restaurar si cambias de opinión)
   - [ ] Google Calendar sync (evento por episodio)
   - [ ] Notificaciones push/email
   - [ ] Historial de episodios vistos

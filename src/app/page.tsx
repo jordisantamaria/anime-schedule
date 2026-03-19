@@ -1,5 +1,6 @@
 import { getAnimeData } from "@/lib/data";
 import { RecentEpisodes } from "@/components/recent-episodes";
+import { LatestAnime } from "@/components/latest-anime";
 
 export default function Home() {
   const animeList = getAnimeData();
@@ -12,6 +13,9 @@ export default function Home() {
 
       <h2 className="mb-4 text-xl font-bold">最新エピソード</h2>
       <RecentEpisodes animeList={animeList} />
+
+      <h2 className="mt-10 mb-4 text-xl font-bold">最新追加アニメ</h2>
+      <LatestAnime animeList={animeList} />
     </div>
   );
 }
