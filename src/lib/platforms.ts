@@ -22,13 +22,6 @@ export const platforms: Record<string, Platform> = {
     url: "https://abema.tv",
     searchUrl: "https://abema.tv/search?q=",
   },
-  crunchyroll: {
-    id: "crunchyroll",
-    name: "Crunchyroll",
-    color: "#f47521",
-    url: "https://www.crunchyroll.com",
-    searchUrl: "https://www.crunchyroll.com/search?q=",
-  },
   amazon: {
     id: "amazon",
     name: "Prime Video",
@@ -49,13 +42,6 @@ export const platforms: Record<string, Platform> = {
     color: "#113ccf",
     url: "https://www.disneyplus.com",
     searchUrl: "https://www.disneyplus.com/ja-jp/search?q=",
-  },
-  hulu: {
-    id: "hulu",
-    name: "Hulu",
-    color: "#1ce783",
-    url: "https://www.hulu.jp",
-    searchUrl: "https://www.hulu.jp/search?q=",
   },
   unext: {
     id: "unext",

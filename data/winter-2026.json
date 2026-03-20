@@ -3644,11 +3644,9 @@
       "dmmtv",
       "netflix",
       "abema",
-      "crunchyroll",
       "amazon",
       "danime",
       "disney",
-      "hulu",
       "unext"
     ],
     "anilistId": 149118,
@@ -4148,8 +4146,7 @@
       "abema",
       "amazon",
       "netflix",
-      "disney",
-      "hulu"
+      "disney"
     ],
     "format": "SPECIAL",
     "anilistId": 170110,
@@ -4394,8 +4391,7 @@
       "abema",
       "netflix",
       "disney",
-      "amazon",
-      "hulu"
+      "amazon"
     ],
     "format": "ONA",
     "anilistId": 206425,
@@ -4626,7 +4622,6 @@
       "abema",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4656,7 +4651,6 @@
       "abema",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV_SHORT",
@@ -4682,7 +4676,6 @@
       "abema",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4710,7 +4703,6 @@
       "abema",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV_SHORT",
@@ -4736,7 +4728,6 @@
       "dmmtv",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV_SHORT",
@@ -4809,7 +4800,6 @@
       "amazon",
       "danime",
       "disney",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4840,7 +4830,6 @@
       "abema",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4867,10 +4856,8 @@
       "dmmtv",
       "netflix",
       "abema",
-      "crunchyroll",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4896,10 +4883,8 @@
     "platforms": [
       "dmmtv",
       "abema",
-      "crunchyroll",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4928,10 +4913,8 @@
       "dmmtv",
       "netflix",
       "abema",
-      "crunchyroll",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV",
@@ -4960,7 +4943,6 @@
       "abema",
       "amazon",
       "danime",
-      "hulu",
       "unext"
     ],
     "format": "TV_SHORT",
