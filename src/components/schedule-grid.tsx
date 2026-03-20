@@ -108,7 +108,7 @@ export function ScheduleGrid({ animeByDay, nonWeeklyAnime = [] }: Props) {
           {DAYS.map((day) => (
             <button
               key={day}
-              onClick={() => setSelectedDay(selectedDay === day ? "all" : day)}
+              onClick={() => setSelectedDay(day)}
               className={`cursor-pointer rounded-sm px-2.5 py-1.5 text-xs font-bold transition-colors ${
                 selectedDay === day
                   ? "bg-accent text-white"
@@ -119,7 +119,7 @@ export function ScheduleGrid({ animeByDay, nonWeeklyAnime = [] }: Props) {
             </button>
           ))}
           <button
-            onClick={() => setSelectedDay(selectedDay === "他" ? "all" : "他")}
+            onClick={() => setSelectedDay("他")}
             className={`cursor-pointer rounded-sm px-2.5 py-1.5 text-xs font-bold transition-colors ${
               selectedDay === "他"
                 ? "bg-yellow-500 text-black"
