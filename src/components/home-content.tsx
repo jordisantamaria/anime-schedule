@@ -26,8 +26,14 @@ export function HomeContent({ animeList }: { animeList: AnimeEntry[] }) {
     return anime.platforms.some((p) => selectedPlatforms.includes(p as PlatformId));
   }
 
-  // Recent episodes
-  const filteredEpisodes = episodes.filter((ep) => filterByPlatform(ep.anime));
+  // Recent episodes - exclude theater-only anime
+  const STREAMING_EXCLUDED: PlatformId[] = ["theater"];
+  const hasStreaming = (anime: AnimeEntry) =>
+    anime.platforms.some((p) => !STREAMING_EXCLUDED.includes(p));
+
+  const filteredEpisodes = episodes.filter(
+    (ep) => hasStreaming(ep.anime) && filterByPlatform(ep.anime)
+  );
   const seen = new Set<string>();
   const deduplicatedEpisodes = filteredEpisodes
     .filter((ep) => {
