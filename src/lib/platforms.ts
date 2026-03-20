@@ -73,10 +73,25 @@ export const platforms: Record<string, Platform> = {
   },
 };
 
+function cleanSearchTitle(title: string): string {
+  return title
+    .replace(/[（(][^）)]*[）)]/g, "")   // remove （第2期） etc
+    .replace(/第\d+期/g, "")
+    .replace(/第\d+クール/g, "")
+    .replace(/\d+nd Season/g, "")
+    .replace(/\d+rd Season/g, "")
+    .replace(/\d+th Season/g, "")
+    .replace(/Season\s*\d+/g, "")
+    .replace(/シーズン\d+/g, "")
+    .replace(/\s*～.*～\s*$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function getPlatformSearchUrl(platformId: string, animeTitle: string): string {
   const p = platforms[platformId];
   if (p?.searchUrl) {
-    return p.searchUrl + encodeURIComponent(animeTitle);
+    return p.searchUrl + encodeURIComponent(cleanSearchTitle(animeTitle));
   }
   return p?.url ?? "#";
 }

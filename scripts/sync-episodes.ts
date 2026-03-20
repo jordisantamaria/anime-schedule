@@ -103,8 +103,10 @@ async function main() {
     const next = json.data?.Media?.nextAiringEpisode;
 
     if (next) {
-      // nextAiringEpisode.episode = the NEXT episode to air
-      // So current episode = next - 1
+      // nextAiringEpisode.episode is per-season (e.g. S3 ep 12)
+      // So current per-season episode = next - 1
+      // Our raw calc is weeksSinceStart + 1 (no episodeStart, no offset)
+      // We need offset so that: rawEpisode + offset = per-season episode
       const actualEpisode = next.episode - 1;
       const neededOffset = actualEpisode - ourEpisode;
 

@@ -3005,7 +3005,8 @@
       }
     ],
     "format": "TV",
-    "episodeOffset": 1
+    "episodeOffset": 0,
+    "episodeStart": 25
   },
   {
     "title": "姫様\"拷問\"の時間です 第2期",
