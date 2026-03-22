@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SessionProvider } from "next-auth/react";
 import "./globals.css";
 import { Header } from "@/components/header";
 
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg-primary text-text-primary`}
       >
+        <SessionProvider>
         <div className="flex min-h-screen flex-col">
         <Header />
         <main className="mx-auto max-w-6xl px-4 py-6 w-full flex-1">{children}</main>
@@ -57,6 +59,7 @@ export default function RootLayout({
           </div>
         </footer>
         </div>
+        </SessionProvider>
       </body>
     </html>
   );

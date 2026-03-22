@@ -1,17 +1,22 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useTransition } from "react";
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { AnimeEntry, PlatformId } from "@/lib/types";
 import { RecentEpisode, getRecentEpisodes } from "@/lib/episodes";
 import { PlatformFilter } from "@/components/platform-filter";
 import { FORMAT_LABELS } from "@/lib/constants";
+import { toggleDrop } from "@/actions/drops";
 
 const NON_WEEKLY_FORMATS = new Set(["MOVIE", "OVA", "SPECIAL", "MUSIC"]);
 
-export function HomeContent({ animeList }: { animeList: AnimeEntry[] }) {
+export function HomeContent({ animeList, droppedSlugs: initialDropped = [] }: { animeList: AnimeEntry[]; droppedSlugs?: string[] }) {
+  const { data: session } = useSession();
   const [episodes, setEpisodes] = useState<RecentEpisode[]>([]);
   const [selectedPlatforms, setSelectedPlatforms] = useState<PlatformId[]>([]);
+  const [droppedSlugs, setDroppedSlugs] = useState<Set<string>>(new Set(initialDropped));
+  const [pending, startTransition] = useTransition();
 
   useEffect(() => {
     setEpisodes(getRecentEpisodes(animeList));
@@ -26,13 +31,24 @@ export function HomeContent({ animeList }: { animeList: AnimeEntry[] }) {
     return anime.platforms.some((p) => selectedPlatforms.includes(p as PlatformId));
   }
 
+  function handleDrop(slug: string) {
+    setDroppedSlugs((prev) => {
+      const next = new Set(prev);
+      next.add(slug);
+      return next;
+    });
+    startTransition(async () => {
+      await toggleDrop(slug);
+    });
+  }
+
   // Recent episodes - exclude theater-only anime
   const STREAMING_EXCLUDED: PlatformId[] = ["theater"];
   const hasStreaming = (anime: AnimeEntry) =>
     anime.platforms.some((p) => !STREAMING_EXCLUDED.includes(p));
 
   const filteredEpisodes = episodes.filter(
-    (ep) => hasStreaming(ep.anime) && filterByPlatform(ep.anime)
+    (ep) => hasStreaming(ep.anime) && filterByPlatform(ep.anime) && !droppedSlugs.has(ep.anime.slug)
   );
   const seen = new Set<string>();
   const deduplicatedEpisodes = filteredEpisodes
@@ -48,7 +64,7 @@ export function HomeContent({ animeList }: { animeList: AnimeEntry[] }) {
   const latestAnime = animeList
     .filter((a) => {
       const start = new Date(a.startDate + "T00:00:00+09:00");
-      return start <= now && filterByPlatform(a);
+      return start <= now && filterByPlatform(a) && !droppedSlugs.has(a.slug);
     })
     .sort((a, b) => b.startDate.localeCompare(a.startDate))
     .slice(0, 20);
@@ -66,36 +82,45 @@ export function HomeContent({ animeList }: { animeList: AnimeEntry[] }) {
       <h2 className="mb-4 text-xl font-bold">最新エピソード</h2>
       <div className="grid grid-cols-2 gap-x-3 gap-y-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {deduplicatedEpisodes.map((ep) => (
-          <Link
-            key={ep.anime.slug}
-            href={`/anime/${ep.anime.slug}`}
-            className="group"
-          >
-            <div className="relative overflow-hidden rounded border border-border">
-              {ep.anime.image ? (
-                <img
-                  src={ep.anime.image}
-                  alt={ep.anime.title}
-                  className="aspect-[3/4] w-full object-cover transition-transform group-hover:scale-105"
-                />
-              ) : (
-                <div className="flex aspect-[3/4] w-full items-center justify-center bg-bg-card text-xs text-text-muted">
-                  画像なし
-                </div>
-              )}
-              <span className="absolute top-1.5 left-1.5 rounded-sm bg-accent px-1 py-px text-xs font-bold text-white">
-                {ep.anime.batchRelease ? `全${ep.episode}話` : `第${ep.episode}話`}
-              </span>
-            </div>
-            <div className="mt-1.5">
-              <h3 className="line-clamp-1 text-sm font-bold text-text-primary group-hover:text-accent">
-                {ep.anime.title}
-              </h3>
-              <p className="text-xs text-text-muted">
-                {formatRelativeTime(ep.airedAt)}
-              </p>
-            </div>
-          </Link>
+          <div key={ep.anime.slug} className="relative group">
+            <Link
+              href={`/anime/${ep.anime.slug}`}
+            >
+              <div className="relative overflow-hidden rounded border border-border">
+                {ep.anime.image ? (
+                  <img
+                    src={ep.anime.image}
+                    alt={ep.anime.title}
+                    className="aspect-[3/4] w-full object-cover transition-transform group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="flex aspect-[3/4] w-full items-center justify-center bg-bg-card text-xs text-text-muted">
+                    画像なし
+                  </div>
+                )}
+                <span className="absolute top-1.5 left-1.5 rounded-sm bg-accent px-1 py-px text-xs font-bold text-white">
+                  {ep.anime.batchRelease ? `全${ep.episode}話` : `第${ep.episode}話`}
+                </span>
+              </div>
+              <div className="mt-1.5">
+                <h3 className="line-clamp-1 text-sm font-bold text-text-primary group-hover:text-accent">
+                  {ep.anime.title}
+                </h3>
+                <p className="text-xs text-text-muted">
+                  {formatRelativeTime(ep.airedAt)}
+                </p>
+              </div>
+            </Link>
+            {session?.user && (
+              <button
+                onClick={() => handleDrop(ep.anime.slug)}
+                className="absolute top-1.5 right-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-black/60 text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-500 cursor-pointer"
+                title="この作品を非表示"
+              >
+                &times;
+              </button>
+            )}
+          </div>
         ))}
       </div>
 

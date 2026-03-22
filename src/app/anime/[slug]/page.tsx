@@ -5,6 +5,7 @@ import { platforms, getPlatformSearchUrl } from "@/lib/platforms";
 import { FORMAT_LABELS } from "@/lib/constants";
 import { CurrentEpisode } from "@/components/current-episode";
 import { AnimeTrailer } from "@/components/trailer-player";
+import { DropButtonWrapper } from "@/components/drop-button-wrapper";
 
 export function generateStaticParams() {
   return getAnimeData().map((anime) => ({ slug: anime.slug }));
@@ -26,7 +27,8 @@ export default async function AnimeDetail({
     <div>
       <BackButton />
 
-      <div className="rounded bg-bg-card border border-border overflow-hidden">
+      <DropButtonWrapper slug={slug} />
+      <div className="mt-3 rounded bg-bg-card border border-border overflow-hidden">
         {anime.trailer && anime.image ? (
           <AnimeTrailer
             trailerId={anime.trailer}
