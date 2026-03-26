@@ -24,6 +24,16 @@ export function SearchBar({ animeList }: { animeList: AnimeEntry[] }) {
               a.titleEnglish?.toLowerCase().includes(q)
             );
           })
+          .sort((a, b) => {
+            const q = query.toLowerCase();
+            const startsWithTitle = (anime: typeof a) =>
+              anime.title.toLowerCase().startsWith(q) ||
+              anime.titleRomaji?.toLowerCase().startsWith(q) ||
+              anime.titleEnglish?.toLowerCase().startsWith(q);
+            const aStarts = startsWithTitle(a) ? 0 : 1;
+            const bStarts = startsWithTitle(b) ? 0 : 1;
+            return aStarts - bStarts;
+          })
           .slice(0, 8)
       : [];
 
