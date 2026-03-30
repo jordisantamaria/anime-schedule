@@ -14,6 +14,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const isPreview = process.env.VERCEL_ENV === "preview";
+
 export const metadata: Metadata = {
   title: "PaoPaoAnime - 今期アニメの配信スケジュール",
   description:
@@ -21,6 +23,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png",
   },
+  ...(isPreview && {
+    robots: { index: false, follow: false },
+  }),
   openGraph: {
     title: "PaoPaoAnime - 今期アニメの配信スケジュール",
     description: "今期アニメ、いつ・どこで配信？パオパオでかんたん確認。DMM TV・U-NEXT・dアニメストア・ABEMA・Netflix・Disney+を網羅。",
