@@ -5,7 +5,7 @@ import { getDroppedSlugs } from "@/actions/drops";
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const animeList = getAnimeData();
+  const animeList = await getAnimeData();
   const droppedSlugs = await getDroppedSlugs();
 
   return (
